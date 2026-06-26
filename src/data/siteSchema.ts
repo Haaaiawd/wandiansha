@@ -1,6 +1,8 @@
 import type { Site } from './siteTypes';
 import { CONTENT_MODES } from './siteTypes';
 
+export { CONTENT_MODES };
+
 export const MIN_SAFE_LEVEL = 4;
 
 function isString(value: unknown): value is string {
