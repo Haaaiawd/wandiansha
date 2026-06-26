@@ -280,7 +280,7 @@ graph TD
 
 ### Phase 1: Foundation
 
-- [ ] **T3.1.1** [REQ-007]: 建立 `sites.json` 数据契约与首批 30 条数据
+- [x] **T3.1.1** [REQ-007]: 建立 `sites.json` 数据契约与首批 30 条数据
   - **描述**: 定义网站条目类型并录入至少 30 条安全、亲子友好的网站数据。
   - **输入**: `01_PRD.md §4 US-007`, `ADR_002_RECOMMENDATION_AND_SAFETY.md §内容安全规则`
   - **输出**: `src/data/sites.json`, `src/data/siteTypes.ts`, `src/data/siteSchema.ts`

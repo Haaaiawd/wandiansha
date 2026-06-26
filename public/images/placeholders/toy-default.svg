@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="24" fill="#f5f3ff"/>
+  <circle cx="200" cy="120" r="56" fill="#e0d7ff"/>
+  <circle cx="176" cy="108" r="8" fill="#8b7ad1"/>
+  <circle cx="224" cy="108" r="8" fill="#8b7ad1"/>
+  <path d="M184 142c8 12 24 12 32 0" stroke="#8b7ad1" stroke-width="6" stroke-linecap="round"/>
+  <rect x="148" y="192" width="104" height="40" rx="20" fill="#e0d7ff"/>
+  <text x="200" y="260" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#7c6bb3">好玩的网站正在赶来</text>
+</svg>
