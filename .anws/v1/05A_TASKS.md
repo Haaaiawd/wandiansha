@@ -69,7 +69,7 @@ graph TD
 
 ### Phase 2: Core
 
-- [ ] **T1.2.1** [REQ-001, REQ-004, REQ-005]: 实现首页与两个筛选开关
+- [x] **T1.2.1** [REQ-001, REQ-004, REQ-005]: 实现首页与两个筛选开关
   - **描述**: 实现产品名、副标题、抽卡按钮、网络环境开关和内容倾向开关。
   - **输入**: `01_PRD.md §4 US-001/US-004/US-005`, `04_SYSTEM_DESIGN/web-app.md §3`, `T1.1.1` 产出的工程骨架
   - **输出**: `src/pages/Home.tsx`, `src/components/FilterSwitch.tsx`, `src/components/RandomButton.tsx`
