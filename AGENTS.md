@@ -86,13 +86,11 @@
 - **待办任务数**: 14
 - **最近一次更新**: `2026-06-26`
 
-### Wave 3 — S2 Playable UI 前半（已完成）
+### Wave 4 — S2 Playable UI 后半（进行中）
 
-T1.2.1, T1.2.2, T1.2.3, T1.2.4
+T1.2.5, INT-S2
 
-- 首页、筛选开关、卡片、横向滑动、空状态、外部跳转已实现。
-- 波末 code-reviewer: `.anws/v1/wave-reviews/wave-3-review.md`（最高残留 Medium：组件测试待 T1.2.5 补齐）。
-- §3.7 E2E: N/A。
+- 补齐 UI 组件测试，执行 S2 手动冒烟验证，S2 关门。
 
 ---
 
