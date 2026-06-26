@@ -2,8 +2,7 @@ import type { Site, ContentMode } from '../data/siteTypes';
 import { filterSafeSites, sortByNetworkMode, sortByContentMode, type NetworkMode } from './filters';
 import { shuffleSites } from './shuffle';
 
-export type { NetworkMode };
-export type { ContentMode };
+export type { NetworkMode, ContentMode };
 
 export type FilterState = {
   networkMode: NetworkMode;
@@ -12,14 +11,31 @@ export type FilterState = {
 
 export type RecommendationBatch = Site[];
 
+function isDomesticFriendly(site: Site): boolean {
+  return site.domesticPriority || !site.mayNeedGlobalNetwork;
+}
+
+function prepareGroup(sites: Site[], contentMode: ContentMode): Site[] {
+  const sorted = sortByContentMode(sites, contentMode);
+  return shuffleSites(sorted);
+}
+
 export function recommendSites(
   sites: Site[],
   filters: FilterState
 ): RecommendationBatch {
   const safe = filterSafeSites(sites);
-  const networkSorted = sortByNetworkMode(safe, filters.networkMode);
-  const contentSorted = sortByContentMode(networkSorted, filters.contentMode);
-  return shuffleSites(contentSorted);
+
+  if (filters.networkMode === 'domestic') {
+    const domestic = safe.filter(isDomesticFriendly);
+    const others = safe.filter((site) => !isDomesticFriendly(site));
+    return [
+      ...prepareGroup(domestic, filters.contentMode),
+      ...prepareGroup(others, filters.contentMode),
+    ];
+  }
+
+  return prepareGroup(safe, filters.contentMode);
 }
 
 export { filterSafeSites, sortByNetworkMode, sortByContentMode, shuffleSites };

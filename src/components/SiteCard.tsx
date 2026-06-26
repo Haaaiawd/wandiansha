@@ -2,16 +2,23 @@ import type { Site } from '../data/siteTypes';
 
 type SiteCardProps = {
   site: Site;
-  onClick: () => void;
+  onClick?: () => void;
 };
 
 export function SiteCard({ site, onClick }: SiteCardProps) {
   const tags = site.tags.slice(0, 3);
 
   return (
-    <button
-      type="button"
-      onClick={onClick}
+    <a
+      href={site.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={(e) => {
+        if (onClick) {
+          e.preventDefault();
+          onClick();
+        }
+      }}
       className="flex h-full w-full flex-col overflow-hidden rounded-3xl bg-white/80 text-left shadow-xl shadow-indigo-100 backdrop-blur-sm transition-transform hover:scale-[1.02] active:scale-[0.98]"
     >
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-indigo-50">
@@ -50,6 +57,6 @@ export function SiteCard({ site, onClick }: SiteCardProps) {
           </div>
         )}
       </div>
-    </button>
+    </a>
   );
 }

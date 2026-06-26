@@ -127,7 +127,7 @@ graph TD
   - **依赖**: T1.2.2, T2.1.1
   - **优先级**: P0
 
-- [ ] **T1.2.4** [REQ-001, REQ-002, REQ-006]: 实现跳转、空结果和加载失败状态
+- [x] **T1.2.4** [REQ-001, REQ-002, REQ-006]: 实现跳转、空结果和加载失败状态
   - **描述**: 补齐整卡新页打开、空结果提示和本地数据加载失败提示。
   - **输入**: `01_PRD.md §4 US-001/US-002/US-006`, `04_SYSTEM_DESIGN/web-app.md §4-5`, `T1.2.3` 产出的卡片流页面
   - **输出**: `src/components/EmptyState.tsx`, `src/utils/openExternal.ts`, UI 错误状态

@@ -1,9 +1,10 @@
 import { useMemo, useState } from 'react';
+import { AppErrorBoundary } from './components/AppErrorBoundary.tsx';
 import { CardCarousel } from './components/CardCarousel.tsx';
 import { EmptyState } from './components/EmptyState.tsx';
 import { Home } from './pages/Home.tsx';
 import { recommendSites, type FilterState } from './utils/recommend.ts';
-import sites from './data/sites.ts';
+import sites, { sitesLoadError } from './data/sites.ts';
 import { openExternal } from './utils/openExternal.ts';
 
 const DEFAULT_FILTERS: FilterState = {
@@ -11,7 +12,7 @@ const DEFAULT_FILTERS: FilterState = {
   contentMode: 'light',
 };
 
-function App() {
+function AppContent() {
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [hasDrawn, setHasDrawn] = useState(false);
 
@@ -31,11 +32,11 @@ function App() {
     openExternal(site.url);
   };
 
-  if (sites.length === 0) {
+  if (sitesLoadError || sites.length === 0) {
     return (
       <EmptyState
         title="网站库加载失败"
-        description="请检查网络连接或刷新页面再试。"
+        description={sitesLoadError ?? '数据为空，请检查 sites.json 后刷新页面。'}
       />
     );
   }
@@ -68,6 +69,14 @@ function App() {
   }
 
   return <Home filters={filters} onFilterChange={setFilters} onDraw={handleDraw} />;
+}
+
+function App() {
+  return (
+    <AppErrorBoundary>
+      <AppContent />
+    </AppErrorBoundary>
+  );
 }
 
 export default App

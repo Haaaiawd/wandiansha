@@ -28,6 +28,7 @@ export function CardCarousel({ sites, onSiteClick, onBack }: CardCarouselProps) 
 
       <div
         ref={scrollRef}
+        aria-label="推荐卡片列表"
         className="flex flex-1 items-center gap-4 overflow-x-auto overscroll-x-contain scroll-smooth px-4 pb-8 pt-4 sm:gap-6 sm:px-6"
         style={{ scrollSnapType: 'x mandatory' }}
       >
