@@ -206,7 +206,7 @@ graph TD
   - **E2E触发设想**: S3 冒烟覆盖核心路径，不做全量组合。
   - **验证摘要**: 验证现场可用性底线。
   - **验证引用**: `05B_VERIFICATION_PLAN.md#t1-3-2`
-  - **证据产出**: `logs/build.log`, `reports/accessibility-check.md`, `reports/performance-check.md`
+  - **证据产出**: `reports/accessibility-check.md`, `reports/performance-check.md`
   - **估时**: 4h
   - **依赖**: T1.3.1, T3.2.1
   - **优先级**: P1
