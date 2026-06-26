@@ -60,7 +60,7 @@ describe('recommendation flow', () => {
   it('reflects filter changes in the recommendation result', async () => {
     await renderApp();
 
-    await userEvent.click(screen.getByRole('button', { name: '全部' }));
+    await userEvent.click(screen.getByRole('button', { name: '学点东西' }));
     await userEvent.click(screen.getByRole('button', { name: '抽一下' }));
 
     expect(screen.getByLabelText('推荐卡片列表')).toBeInTheDocument();

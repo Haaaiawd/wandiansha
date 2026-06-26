@@ -16,18 +16,23 @@
 
 ## 采集优先级
 
-### P0：视觉驱动站点
+### P0：最能改变卡片观感的网页玩具
 
-- `quick-draw`
-- `auto-draw`
-- `chrome-music-lab`
-- `palace-museum-digital`
-- `beauty-of-science`
+- `pointer-pointer`
+- `cat-bounce`
+- `koalas-to-the-max`
+- `weave-silk`
+- `neon-flames`
+- `this-is-sand`
+- `fluid-simulation`
+- `blob-opera`
+- `deep-sea`
+- `size-of-space`
 
 ### P1：活动现场高频展示站点
 
-- 国内优先且内容安全明确的站点
-- 可在现场网络稳定打开的站点
+- 打开即玩且截图能表达玩法的站点
+- 视觉反馈强、声音反馈强或荒诞感强的站点
 - 卡片说明较抽象、需要图片辅助理解的站点
 
 ### P2：其余站点

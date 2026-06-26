@@ -8,7 +8,6 @@ test.describe('smoke', () => {
   test('homepage renders', async ({ page }) => {
     await expect(page.getByRole('heading', { level: 1 })).toContainText('玩点啥');
     await expect(page.getByRole('button', { name: '抽一下' })).toBeVisible();
-    await expect(page.getByRole('group', { name: '网络环境' })).toBeVisible();
     await expect(page.getByRole('group', { name: '内容倾向' })).toBeVisible();
   });
 
@@ -18,8 +17,7 @@ test.describe('smoke', () => {
   });
 
   test('filter changes work', async ({ page }) => {
-    await page.getByRole('button', { name: '全部' }).click();
-    await page.getByRole('button', { name: '有点收获' }).click();
+    await page.getByRole('button', { name: '学点东西' }).click();
     await page.getByRole('button', { name: '抽一下' }).click();
     await expect(page.getByLabelText('推荐卡片列表')).toBeVisible();
   });

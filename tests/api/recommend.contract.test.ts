@@ -2,18 +2,16 @@ import { describe, it, expect } from 'vitest';
 import {
   recommendSites,
   filterSafeSites,
-  sortByNetworkMode,
   sortByContentMode,
   shuffleSites,
   type FilterState,
-  type NetworkMode,
   type ContentMode,
 } from '../../src/utils/recommend';
 import sites from '../../src/data/sites.json';
 
 describe('recommend contract tests', () => {
   it('recommendSites accepts Site[] and FilterState and returns Site[]', () => {
-    const filters: FilterState = { networkMode: 'domestic', contentMode: 'light' };
+    const filters: FilterState = { contentMode: 'light' };
     const result = recommendSites(sites, filters);
     expect(Array.isArray(result)).toBe(true);
     result.forEach((site) => {
@@ -25,14 +23,6 @@ describe('recommend contract tests', () => {
   it('filterSafeSites contract: input/output are Site arrays', () => {
     const result = filterSafeSites(sites);
     expect(result.every((s) => s.safeLevel >= 4 && s.childFriendly)).toBe(true);
-  });
-
-  it('sortByNetworkMode contract: accepts NetworkMode', () => {
-    const modes: NetworkMode[] = ['domestic', 'all'];
-    modes.forEach((mode) => {
-      const result = sortByNetworkMode(sites, mode);
-      expect(result).toHaveLength(sites.length);
-    });
   });
 
   it('sortByContentMode contract: accepts ContentMode', () => {
@@ -51,13 +41,13 @@ describe('recommend contract tests', () => {
   });
 
   it('real sites.json produces recommendable results', () => {
-    const filters: FilterState = { networkMode: 'all', contentMode: 'light' };
+    const filters: FilterState = { contentMode: 'light' };
     const result = recommendSites(sites, filters);
     expect(result.length).toBeGreaterThan(0);
   });
 
-  it('domestic mode keeps non-domestic sites when domestic-friendly results are insufficient', () => {
-    const filters: FilterState = { networkMode: 'domestic', contentMode: 'light' };
+  it('content mode keeps recommendable sites', () => {
+    const filters: FilterState = { contentMode: 'light' };
     const result = recommendSites(sites, filters);
     expect(result.length).toBeGreaterThan(0);
   });

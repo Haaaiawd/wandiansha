@@ -1,17 +1,150 @@
 [
   {
+    "id": "pointer-pointer",
+    "name": "Pointer Pointer",
+    "url": "https://pointerpointer.com/",
+    "description": "移动鼠标，它会找到一张有人指向你指针的照片。离谱但一秒就懂。",
+    "image": "/images/sites/pointer-pointer.png",
+    "category": "互联网怪站",
+    "tags": [
+      "怪站",
+      "鼠标",
+      "荒诞"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "find-the-invisible-cow",
+    "name": "Find the Invisible Cow",
+    "url": "https://findtheinvisiblecow.com/",
+    "description": "听声音找一头看不见的牛，越接近叫声越大。很笨，但很好笑。",
+    "image": "/images/sites/find-the-invisible-cow.png",
+    "category": "声音玩具",
+    "tags": [
+      "声音",
+      "找东西",
+      "怪趣"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "cat-bounce",
+    "name": "Cat Bounce",
+    "url": "https://cat-bounce.com/",
+    "description": "满屏猫猫弹来弹去，拖一下就开始乱飞。适合现场立刻笑一下。",
+    "image": "/images/sites/cat-bounce.png",
+    "category": "互联网怪站",
+    "tags": [
+      "猫",
+      "解压",
+      "弹跳"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "koalas-to-the-max",
+    "name": "Koalas to the Max",
+    "url": "https://koalastothemax.com/",
+    "description": "不断划开彩色圆点，最后会冒出一张考拉图。操作简单，有一点小魔术感。",
+    "image": "/images/sites/koalas-to-the-max.png",
+    "category": "视觉玩具",
+    "tags": [
+      "考拉",
+      "解谜",
+      "视觉"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "long-doge-challenge",
+    "name": "Long Doge Challenge",
+    "url": "https://longdogechallenge.com/",
+    "description": "一只超长 Doge 往下延伸，挑战你能滚到哪里。无意义，但很有网页玩具味。",
+    "image": "/images/sites/long-doge-challenge.png",
+    "category": "互联网怪站",
+    "tags": [
+      "Doge",
+      "滚动",
+      "挑战"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "paper-toilet",
+    "name": "Paper Toilet",
+    "url": "https://papertoilet.com/",
+    "description": "一直拉卷纸，直到你意识到自己真的在网页上拉卷纸。荒诞得很纯粹。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "互联网怪站",
+    "tags": [
+      "无用",
+      "解压",
+      "怪站"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "checkbox-race",
+    "name": "Checkbox Race",
+    "url": "https://checkboxrace.com/",
+    "description": "和别人比谁点复选框更快，简单到离谱，也很适合围观。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "轻量小游戏",
+    "tags": [
+      "点击",
+      "竞速",
+      "一分钟"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
     "id": "quick-draw",
     "name": "Quick, Draw!",
     "url": "https://quickdraw.withgoogle.com/",
-    "description": "你画一个东西，看 AI 能不能在 20 秒内猜出来。",
+    "description": "你画一个东西，看 AI 能不能在 20 秒内猜出来。失败时反而更好笑。",
     "image": "/images/placeholders/toy-default.svg",
-    "category": "AI/创意",
+    "category": "AI 玩具",
     "tags": [
       "AI",
       "画画",
       "猜谜"
     ],
-    "contentMode": "light",
+    "contentMode": "useful",
     "domesticPriority": false,
     "mayNeedGlobalNetwork": true,
     "childFriendly": true,
@@ -22,53 +155,34 @@
     "id": "auto-draw",
     "name": "AutoDraw",
     "url": "https://www.autodraw.com/",
-    "description": "随手画几笔，AI 会把它变成好看的简笔画。",
+    "description": "随手画几笔，AI 会猜并帮你变成干净图标。打开就能玩。",
     "image": "/images/placeholders/toy-default.svg",
-    "category": "AI/创意",
+    "category": "AI 玩具",
     "tags": [
       "AI",
       "画画",
       "创意"
     ],
-    "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false
   },
   {
-    "id": "ai-duet",
-    "name": "AI Duet",
-    "url": "https://aiduet.withgoogle.com/",
-    "description": "弹几个音符，AI 会接着你的旋律一起弹钢琴。",
+    "id": "blob-opera",
+    "name": "Blob Opera",
+    "url": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
+    "description": "拖动四个软乎乎的角色唱歌，声音反馈立刻出现。很适合亲子一起玩。",
     "image": "/images/placeholders/toy-default.svg",
-    "category": "AI/创意",
+    "category": "声音玩具",
     "tags": [
-      "AI",
       "音乐",
-      "钢琴"
-    ],
-    "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "semantris",
-    "name": "Semantris",
-    "url": "https://research.google.com/semantris/",
-    "description": "用 AI 理解语义的文字消消乐，输入相关词来得分。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "AI/创意",
-    "tags": [
       "AI",
-      "文字",
-      "游戏"
+      "唱歌"
     ],
-    "contentMode": "light",
+    "contentMode": "useful",
     "domesticPriority": false,
     "mayNeedGlobalNetwork": true,
     "childFriendly": true,
@@ -79,416 +193,340 @@
     "id": "chrome-music-lab",
     "name": "Chrome Music Lab",
     "url": "https://musiclab.chromeexperiments.com/",
-    "description": "Google 的在线音乐实验室，可以玩节奏、旋律、声波和画音乐。",
+    "description": "一组声音和节奏小实验，点一下就能看到声音怎么动起来。",
     "image": "/images/placeholders/toy-default.svg",
-    "category": "AI/创意",
+    "category": "声音玩具",
     "tags": [
       "音乐",
       "实验",
+      "互动"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "song-maker",
+    "name": "Song Maker",
+    "url": "https://musiclab.chromeexperiments.com/Song-Maker/",
+    "description": "在格子上点音符，马上生成一小段旋律。像一盒能发声的音乐积木。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "声音玩具",
+    "tags": [
+      "作曲",
+      "节奏",
+      "格子"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "patatap",
+    "name": "Patatap",
+    "url": "https://patatap.com/",
+    "description": "按键盘就会出现声音和动画，像把键盘变成小型演出机器。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "声音玩具",
+    "tags": [
+      "键盘",
+      "声音",
+      "动画"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "typedrummer",
+    "name": "Typedrummer",
+    "url": "https://typedrummer.com/",
+    "description": "输入文字，它会把每个字母变成节奏。随便打一串也能听起来很怪。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "声音玩具",
+    "tags": [
+      "打字",
+      "节奏",
       "声音"
     ],
     "contentMode": "light",
     "domesticPriority": false,
     "mayNeedGlobalNetwork": true,
     "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "purrli",
+    "name": "Purrli",
+    "url": "https://purrli.com/",
+    "description": "调出一只虚拟猫的呼噜声，适合当安静又奇怪的声音玩具。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "声音玩具",
+    "tags": [
+      "猫",
+      "声音",
+      "放松"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
     "safeLevel": 5,
     "tested": false
   },
   {
-    "id": "sketchpad",
-    "name": "Sketchpad",
-    "url": "https://sketch.io/sketchpad/",
-    "description": "功能齐全的在线画板，打开就能随手涂鸦。",
+    "id": "weave-silk",
+    "name": "Weave Silk",
+    "url": "https://weavesilk.com/",
+    "description": "用鼠标画出对称的发光丝线，几秒钟就能做出很漂亮的图。",
     "image": "/images/placeholders/toy-default.svg",
-    "category": "AI/创意",
+    "category": "视觉玩具",
+    "tags": [
+      "绘画",
+      "对称",
+      "发光"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "neon-flames",
+    "name": "Neon Flames",
+    "url": "https://29a.ch/sandbox/2011/neonflames/",
+    "description": "在黑底上画霓虹火焰，鼠标划过就有光。适合做漂亮截图。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "视觉玩具",
+    "tags": [
+      "霓虹",
+      "绘画",
+      "光效"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "this-is-sand",
+    "name": "This Is Sand",
+    "url": "https://thisissand.com/",
+    "description": "往屏幕里倒彩色沙子，慢慢堆出一幅图。没教程也能马上玩。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "视觉玩具",
+    "tags": [
+      "沙子",
+      "绘画",
+      "解压"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "sandspiel",
+    "name": "Sandspiel",
+    "url": "https://sandspiel.club/",
+    "description": "把沙、水、火、植物放进同一个小世界，看它们自己发生反应。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "视觉玩具",
+    "tags": [
+      "沙盒",
+      "物理",
+      "反应"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "fluid-simulation",
+    "name": "Fluid Simulation",
+    "url": "https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
+    "description": "拖动鼠标搅动彩色流体，视觉反馈非常直接。性能差的设备要谨慎。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "视觉玩具",
+    "tags": [
+      "流体",
+      "WebGL",
+      "解压"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "deep-sea",
+    "name": "The Deep Sea",
+    "url": "https://neal.fun/deep-sea/",
+    "description": "一路往深海下潜，看越来越奇怪的生物出现。像滑动版探索玩具。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "探索实验",
+    "tags": [
+      "深海",
+      "探索",
+      "滑动"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "size-of-space",
+    "name": "The Size of Space",
+    "url": "https://neal.fun/size-of-space/",
+    "description": "横向滑动比较宇宙里各种东西的大小，视觉冲击比普通科普强很多。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "探索实验",
+    "tags": [
+      "宇宙",
+      "尺度",
+      "探索"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "spend-bill-gates-money",
+    "name": "Spend Bill Gates' Money",
+    "url": "https://neal.fun/spend/",
+    "description": "模拟花掉一大笔钱，点几下就能感受到荒诞的数字冲击。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "离谱选择",
+    "tags": [
+      "花钱",
+      "模拟",
+      "选择"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "draw-logos-from-memory",
+    "name": "Draw Logos From Memory",
+    "url": "https://neal.fun/logos-from-memory/",
+    "description": "凭记忆画知名 Logo，然后看自己画得有多离谱。现场很容易产生笑点。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "创意挑战",
     "tags": [
       "画画",
-      "创作",
-      "工具"
+      "记忆",
+      "挑战"
     ],
     "contentMode": "light",
     "domesticPriority": false,
     "mayNeedGlobalNetwork": true,
     "childFriendly": true,
-    "safeLevel": 5,
+    "safeLevel": 4,
     "tested": false
   },
   {
-    "id": "nasa-kids-club",
-    "name": "NASA Kids' Club",
-    "url": "https://www.nasa.gov/kidsclub/",
-    "description": "NASA 给小朋友做的太空科普站，有游戏、图片和任务介绍。",
+    "id": "design-next-iphone",
+    "name": "Design the Next iPhone",
+    "url": "https://neal.fun/design-the-next-iphone/",
+    "description": "给手机乱加按钮、摄像头和奇怪功能，越设计越离谱。",
     "image": "/images/placeholders/toy-default.svg",
-    "category": "科学/科普",
+    "category": "离谱选择",
     "tags": [
-      "太空",
-      "NASA",
-      "科普"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "national-geographic-kids",
-    "name": "National Geographic Kids",
-    "url": "https://kids.nationalgeographic.com/",
-    "description": "国家地理儿童版，看动物、自然和科学的小知识。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "科学/科普",
-    "tags": [
-      "动物",
-      "自然",
-      "科普"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "exploratorium",
-    "name": "Exploratorium",
-    "url": "https://www.exploratorium.edu/",
-    "description": "美国探索馆的科学实验和互动展品，适合边玩边学。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "科学/科普",
-    "tags": [
-      "科学",
-      "实验",
-      "博物馆"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "phet",
-    "name": "PhET 互动仿真",
-    "url": "https://phet.colorado.edu/",
-    "description": "科罗拉多大学的物理、化学、数学互动仿真程序，直观好玩。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "科学/科普",
-    "tags": [
-      "仿真",
-      "物理",
-      "数学"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "wonderopolis",
-    "name": "Wonderopolis",
-    "url": "https://wonderopolis.org/",
-    "description": "每天回答一个孩子的「为什么」，比如天空为什么是蓝色的。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "科学/科普",
-    "tags": [
-      "问答",
-      "好奇心",
-      "科普"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "china-digital-science-museum",
-    "name": "中国数字科技馆",
-    "url": "https://www.cdstm.cn/",
-    "description": "国内综合科普平台，包含展览、实验和数字资源。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "科学/科普",
-    "tags": [
-      "科普",
-      "展览",
-      "国内"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": true,
-    "mayNeedGlobalNetwork": false,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "scratch",
-    "name": "Scratch",
-    "url": "https://scratch.mit.edu/",
-    "description": "麻省理工的图形化编程社区，用积木块做动画和小游戏。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "编程/学习",
-    "tags": [
-      "编程",
-      "创作",
-      "社区"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "code-org",
-    "name": "Code.org",
-    "url": "https://code.org/",
-    "description": "免费的编程入门课程，用游戏化的方式教基础逻辑。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "编程/学习",
-    "tags": [
-      "编程",
-      "课程",
-      "逻辑"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "blockly-games",
-    "name": "Blockly Games",
-    "url": "https://blockly.games/",
-    "description": "Google 出的积木编程小游戏，从迷宫到音乐逐步进阶。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "编程/学习",
-    "tags": [
-      "编程",
-      "游戏",
-      "逻辑"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "khan-academy",
-    "name": "Khan Academy",
-    "url": "https://www.khanacademy.org/",
-    "description": "可汗学院，免费学习数学、科学、编程和艺术。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "编程/学习",
-    "tags": [
-      "学习",
-      "课程",
-      "免费"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "duolingo",
-    "name": "Duolingo",
-    "url": "https://www.duolingo.com/",
-    "description": "游戏化学习外语，每天几分钟积累词汇和句子。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "编程/学习",
-    "tags": [
-      "语言",
-      "学习",
-      "游戏"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "khan-academy-zh",
-    "name": "可汗学院中文版",
-    "url": "https://zh.khanacademy.org/",
-    "description": "可汗学院的中文界面，适合中文环境学习基础学科。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "编程/学习",
-    "tags": [
-      "学习",
-      "中文",
-      "课程"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": true,
-    "mayNeedGlobalNetwork": false,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "palace-museum-digital",
-    "name": "故宫博物院数字文物库",
-    "url": "https://www.dpm.org.cn/lights/royal.html",
-    "description": "在线浏览故宫藏品和建筑，放大看文物细节。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "艺术/文化",
-    "tags": [
-      "故宫",
-      "文物",
-      "历史"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": true,
-    "mayNeedGlobalNetwork": false,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "national-museum-china",
-    "name": "中国国家博物馆",
-    "url": "https://www.chnmuseum.cn/",
-    "description": "国博的线上展览和藏品介绍，了解中国历史和文化。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "艺术/文化",
-    "tags": [
-      "博物馆",
-      "历史",
-      "国内"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": true,
-    "mayNeedGlobalNetwork": false,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "storyline-online",
-    "name": "Storyline Online",
-    "url": "https://storylineonline.net/",
-    "description": "演员朗读绘本故事，配字幕和插画，适合练听力。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "艺术/文化",
-    "tags": [
-      "故事",
-      "绘本",
-      "英语"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "beauty-of-science",
-    "name": "美丽科学",
-    "url": "https://www.beautyofscience.cn/",
-    "description": "用精美影像呈现化学反应和自然科学现象。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "艺术/文化",
-    "tags": [
-      "科学",
-      "影像",
-      "艺术"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": true,
-    "mayNeedGlobalNetwork": false,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "geoguessr",
-    "name": "GeoGuessr",
-    "url": "https://www.geoguessr.com/",
-    "description": "把你随机放到世界某个街景，靠线索猜你在哪里。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "游戏/趣味",
-    "tags": [
-      "地理",
-      "探索",
-      "地图"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "cool-math-games",
-    "name": "Cool Math Games",
-    "url": "https://www.coolmathgames.com/",
-    "description": "号称「不是游戏网站」的数学和逻辑小游戏合集。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "游戏/趣味",
-    "tags": [
-      "数学",
-      "逻辑",
-      "游戏"
+      "设计",
+      "恶搞",
+      "创意"
     ],
     "contentMode": "light",
     "domesticPriority": false,
     "mayNeedGlobalNetwork": true,
     "childFriendly": true,
-    "safeLevel": 5,
+    "safeLevel": 4,
     "tested": false
   },
   {
-    "id": "toy-theater",
-    "name": "Toy Theater",
-    "url": "https://toytheater.com/",
-    "description": "简单的教育小游戏集合，画风可爱，打开即玩。",
+    "id": "wonders-of-street-view",
+    "name": "Wonders of Street View",
+    "url": "https://neal.fun/wonders-of-street-view/",
+    "description": "随机看世界各地奇怪又有趣的街景，像开盲盒一样逛地球。",
     "image": "/images/placeholders/toy-default.svg",
-    "category": "游戏/趣味",
+    "category": "探索实验",
     "tags": [
-      "小游戏",
-      "教育",
-      "休闲"
+      "街景",
+      "随机",
+      "世界"
     ],
-    "contentMode": "light",
+    "contentMode": "useful",
     "domesticPriority": false,
     "mayNeedGlobalNetwork": true,
     "childFriendly": true,
-    "safeLevel": 5,
+    "safeLevel": 4,
     "tested": false
   },
   {
-    "id": "switch-zoo",
-    "name": "Switch Zoo",
-    "url": "https://switchzoo.com/",
-    "description": "把不同动物的身体部位组合起来，创造新物种并听它的叫声。",
+    "id": "password-game",
+    "name": "The Password Game",
+    "url": "https://neal.fun/password-game/",
+    "description": "按越来越荒唐的规则设置密码，规则会一路失控。适合稍大一点的玩家。",
     "image": "/images/placeholders/toy-default.svg",
-    "category": "游戏/趣味",
+    "category": "规则挑战",
     "tags": [
-      "动物",
-      "创意",
-      "组合"
+      "规则",
+      "文字",
+      "挑战"
     ],
-    "contentMode": "light",
+    "contentMode": "useful",
     "domesticPriority": false,
     "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "little-alchemy-2",
+    "name": "Little Alchemy 2",
+    "url": "https://littlealchemy2.com/",
+    "description": "把两个元素拖到一起合成新东西，越玩越像在试奇怪配方。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "轻量小游戏",
+    "tags": [
+      "合成",
+      "拖拽",
+      "探索"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false
@@ -497,13 +535,127 @@
     "id": "play-2048",
     "name": "2048",
     "url": "https://play2048.co/",
-    "description": "经典的数字合成滑动游戏，锻炼简单策略。",
+    "description": "上下左右滑动合并数字，规则极简但很容易停不下来。",
     "image": "/images/placeholders/toy-default.svg",
-    "category": "游戏/趣味",
+    "category": "轻量小游戏",
     "tags": [
       "数字",
-      "益智",
-      "休闲"
+      "滑动",
+      "益智"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "human-benchmark-reaction",
+    "name": "Reaction Time Test",
+    "url": "https://humanbenchmark.com/tests/reactiontime",
+    "description": "等屏幕变色后立刻点击，测一下你的反应有多快。现场对比很有参与感。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "轻量小游戏",
+    "tags": [
+      "反应",
+      "测试",
+      "挑战"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "the-zen-zone",
+    "name": "The Zen Zone",
+    "url": "https://thezen.zone/",
+    "description": "几个安静的在线解压小玩具，适合想轻轻点一点、放空一下的时候。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "解压玩具",
+    "tags": [
+      "放松",
+      "解压",
+      "轻互动"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "staggering-beauty",
+    "name": "Staggering Beauty",
+    "url": "https://staggeringbeauty.com/",
+    "description": "晃动鼠标让黑色小东西疯狂摇摆，反馈直接又很荒诞。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "互联网怪站",
+    "tags": [
+      "鼠标",
+      "荒诞",
+      "动效"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "eelslap",
+    "name": "Eel Slap",
+    "url": "https://eelslap.com/",
+    "description": "拖动鼠标用鳗鱼拍脸，荒唐到让人忍不住再拖一次。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "互联网怪站",
+    "tags": [
+      "怪站",
+      "鼠标",
+      "恶搞"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "omfgdogs",
+    "name": "OMFGDOGS",
+    "url": "https://www.omfgdogs.com/",
+    "description": "一群像素狗循环奔跑，复古、吵闹、很互联网。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "互联网怪站",
+    "tags": [
+      "像素",
+      "狗",
+      "复古"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "heeeeeeeey",
+    "name": "Heeeeeeeey",
+    "url": "https://heeeeeeeey.com/",
+    "description": "打开就只剩一个超长招呼，没用但非常适合解释怪站精神。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "互联网怪站",
+    "tags": [
+      "文字",
+      "无用",
+      "怪站"
     ],
     "contentMode": "light",
     "domesticPriority": false,
@@ -513,16 +665,586 @@
     "tested": false
   },
   {
-    "id": "little-alchemy",
-    "name": "Little Alchemy",
-    "url": "https://littlealchemy.com/",
-    "description": "从四大元素开始，组合出超过五百种物品，发现隐藏配方。",
+    "id": "hooooooooo",
+    "name": "Hooooooo",
+    "url": "https://hooooooooo.com/",
+    "description": "另一个纯粹无意义的长音网站，像互联网里的回声玩具。",
     "image": "/images/placeholders/toy-default.svg",
-    "category": "游戏/趣味",
+    "category": "互联网怪站",
     "tags": [
-      "合成",
+      "文字",
+      "无用",
+      "回声"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "cant-not-tweet-this",
+    "name": "Can't Not Tweet This",
+    "url": "https://cant-not-tweet-this.com/",
+    "description": "一个试图让你点按钮的反常识页面，适合讲网页恶作剧。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "互联网怪站",
+    "tags": [
+      "按钮",
+      "恶作剧",
+      "反常识"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "rrrgggbbb",
+    "name": "rrrgggbbb",
+    "url": "https://rrrgggbbb.com/",
+    "description": "屏幕只剩颜色变化，简单但很像浏览器里的色彩乐器。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "视觉玩具",
+    "tags": [
+      "颜色",
+      "极简",
+      "视觉"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "binary-piano",
+    "name": "Binary Piano",
+    "url": "https://binarypiano.com/",
+    "description": "用键盘敲出电子音和节奏，像一个极简声音小盒子。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "声音玩具",
+    "tags": [
+      "键盘",
+      "音乐",
+      "节奏"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "keyboard-drumset",
+    "name": "Virtual Drumming",
+    "url": "https://www.virtualdrumming.com/drums/online-virtual-games/online-virtual-games-drums.html",
+    "description": "键盘变成架子鼓，按键就能打出节奏。适合现场一起试。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "声音玩具",
+    "tags": [
+      "鼓",
+      "键盘",
+      "节奏"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "online-sequencer",
+    "name": "Online Sequencer",
+    "url": "https://onlinesequencer.net/",
+    "description": "在时间线上点音符，马上听到旋律，像简化版作曲玩具。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "声音玩具",
+    "tags": [
+      "作曲",
+      "钢琴",
+      "节奏"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "beepbox",
+    "name": "BeepBox",
+    "url": "https://www.beepbox.co/",
+    "description": "点格子做芯片音乐，几分钟能拼出一段小旋律。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "声音玩具",
+    "tags": [
+      "芯片",
+      "作曲",
+      "格子"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "incredibox-demo",
+    "name": "Incredibox Demo",
+    "url": "https://www.incredibox.com/demo/",
+    "description": "把角色拖进节奏组合里，马上听到一支小乐队。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "声音玩具",
+    "tags": [
+      "人声",
+      "节奏",
+      "拖拽"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "bomomo",
+    "name": "Bomomo",
+    "url": "https://bomomo.com/",
+    "description": "选择笔刷后乱画，会出现很难预料的线条和图案。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "视觉玩具",
+    "tags": [
+      "绘画",
+      "笔刷",
+      "随机"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "sketchpad",
+    "name": "Sketchpad",
+    "url": "https://sketch.io/sketchpad/",
+    "description": "在线画板，工具够多但打开就能涂。适合自由创作。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "视觉玩具",
+    "tags": [
+      "画板",
+      "涂鸦",
+      "创作"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "mr-doob-harmony",
+    "name": "Harmony",
+    "url": "https://mrdoob.com/projects/harmony/",
+    "description": "几种奇怪笔刷会自己生成漂亮线条，随便画也不太丑。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "视觉玩具",
+    "tags": [
+      "绘画",
+      "笔刷",
+      "生成"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "mr-doob-ball-pool",
+    "name": "Ball Pool",
+    "url": "https://mrdoob.com/projects/chromeexperiments/ball_pool/",
+    "description": "拖动一堆彩色小球，看它们碰撞散开，像桌面物理玩具。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "视觉玩具",
+    "tags": [
+      "物理",
+      "小球",
+      "拖拽"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "ribbon",
+    "name": "Ribbon",
+    "url": "https://mrdoob.com/projects/chromeexperiments/ribbon/",
+    "description": "鼠标拖出彩带一样的线条，动作越快画面越有生命感。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "视觉玩具",
+    "tags": [
+      "鼠标",
+      "彩带",
+      "动效"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "google-gravity",
+    "name": "Google Gravity",
+    "url": "https://mrdoob.com/projects/chromeexperiments/google-gravity/",
+    "description": "搜索页突然受重力影响掉下来，像把网页本身变成玩具。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "互联网怪站",
+    "tags": [
+      "重力",
+      "网页",
+      "恶搞"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "solitaire-card-games",
+    "name": "Solitaire",
+    "url": "https://solitaired.com/",
+    "description": "经典纸牌接龙，规则简单，适合安静地玩几分钟。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "轻量小游戏",
+    "tags": [
+      "纸牌",
+      "安静",
+      "经典"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "tetris-n-blox",
+    "name": "Tetris N-Blox",
+    "url": "https://www.freetetris.org/game.php",
+    "description": "经典俄罗斯方块，打开就能玩，适合作为轻量游戏补充。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "轻量小游戏",
+    "tags": [
+      "方块",
+      "反应",
+      "经典"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "hextris",
+    "name": "Hextris",
+    "url": "https://hextris.io/",
+    "description": "六边形版消除小游戏，旋转接住颜色块，节奏很快。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "轻量小游戏",
+    "tags": [
+      "消除",
+      "六边形",
+      "反应"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "agar-io",
+    "name": "Agar.io",
+    "url": "https://agar.io/",
+    "description": "控制小圆点吃掉更小的圆点，规则一眼能懂但有竞技性。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "轻量小游戏",
+    "tags": [
+      "圆点",
+      "吞噬",
+      "反应"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "slither-io",
+    "name": "Slither.io",
+    "url": "https://slither.io/",
+    "description": "控制小蛇绕来绕去吃光点，像更热闹的贪吃蛇。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "轻量小游戏",
+    "tags": [
+      "小蛇",
+      "反应",
+      "竞技"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "flappy-bird-html5",
+    "name": "Flappy Bird",
+    "url": "https://flappybird.io/",
+    "description": "点一下飞一下，失败很快但会想再来一局。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "轻量小游戏",
+    "tags": [
+      "点击",
+      "反应",
+      "小鸟"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "wordle-nytimes",
+    "name": "Wordle",
+    "url": "https://www.nytimes.com/games/wordle/index.html",
+    "description": "每天猜一个英文单词，规则简单，适合稍大一点的孩子。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "规则挑战",
+    "tags": [
+      "单词",
+      "猜谜",
+      "规则"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "worldle",
+    "name": "Worldle",
+    "url": "https://worldle.teuteuf.fr/",
+    "description": "看轮廓猜国家，像地理版猜谜。适合学点东西模式。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "规则挑战",
+    "tags": [
+      "地理",
+      "猜谜",
+      "轮廓"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "geoguessr-free",
+    "name": "GeoGuessr Free",
+    "url": "https://www.geoguessr.com/free",
+    "description": "看街景猜自己在哪里，像把世界地图变成小游戏。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "探索实验",
+    "tags": [
+      "地图",
+      "街景",
+      "猜谜"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "radio-garden",
+    "name": "Radio Garden",
+    "url": "https://radio.garden/",
+    "description": "旋转地球听世界各地电台，像在地球上调收音机。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "探索实验",
+    "tags": [
+      "地球",
+      "声音",
+      "探索"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "earth-nullschool",
+    "name": "Earth Wind Map",
+    "url": "https://earth.nullschool.net/",
+    "description": "看全球风流动的可视化地图，像地球正在呼吸。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "探索实验",
+    "tags": [
+      "地球",
+      "风",
+      "可视化"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 4,
+    "tested": false
+  },
+  {
+    "id": "stars-chrome-experiment",
+    "name": "100,000 Stars",
+    "url": "https://stars.chromeexperiments.com/",
+    "description": "在浏览器里缩放银河，像把星图做成一个可玩的模型。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "探索实验",
+    "tags": [
+      "宇宙",
+      "星星",
+      "缩放"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "scale-of-universe",
+    "name": "Scale of the Universe",
+    "url": "https://htwins.net/scale2/",
+    "description": "从微小粒子滑到宇宙尺度，视觉化理解大小关系。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "探索实验",
+    "tags": [
+      "尺度",
+      "宇宙",
+      "滑动"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "access-mars",
+    "name": "Access Mars",
+    "url": "https://accessmars.withgoogle.com/",
+    "description": "在浏览器里走近火星地形，像迷你太空探险。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "探索实验",
+    "tags": [
+      "火星",
       "探索",
-      "元素"
+      "太空"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "metkids-map",
+    "name": "MetKids Map",
+    "url": "https://www.metmuseum.org/art/online-features/metkids/explore/",
+    "description": "用地图方式逛艺术品，偏探索，不像普通博物馆页面。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "探索实验",
+    "tags": [
+      "艺术",
+      "地图",
+      "探索"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "teachable-machine",
+    "name": "Teachable Machine",
+    "url": "https://teachablemachine.withgoogle.com/",
+    "description": "用摄像头或声音训练一个小模型，AI 变得可摸可玩。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "AI 玩具",
+    "tags": [
+      "AI",
+      "训练",
+      "互动"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "semiconductor",
+    "name": "Semi-Conductor",
+    "url": "https://semiconductor.withgoogle.com/",
+    "description": "挥动身体指挥 AI 乐团，像在网页里当一次指挥家。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "AI 玩具",
+    "tags": [
+      "AI",
+      "音乐",
+      "身体"
     ],
     "contentMode": "light",
     "domesticPriority": false,
@@ -532,58 +1254,39 @@
     "tested": false
   },
   {
-    "id": "baby-bus",
-    "name": "宝宝巴士",
-    "url": "https://www.babybus.com/",
-    "description": "面向学龄前儿童的儿歌、动画和启蒙小游戏。",
+    "id": "thing-translator",
+    "name": "Thing Translator",
+    "url": "https://thing-translator.appspot.com/",
+    "description": "给东西拍照，它会猜是什么并翻译，像一个小小识物魔法。",
     "image": "/images/placeholders/toy-default.svg",
-    "category": "游戏/趣味",
+    "category": "AI 玩具",
     "tags": [
-      "儿歌",
-      "启蒙",
-      "幼儿"
+      "AI",
+      "识物",
+      "翻译"
     ],
-    "contentMode": "light",
-    "domesticPriority": true,
-    "mayNeedGlobalNetwork": false,
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
     "childFriendly": true,
-    "safeLevel": 5,
+    "safeLevel": 4,
     "tested": false
   },
   {
-    "id": "shanghai-natural-history-museum",
-    "name": "上海自然博物馆",
-    "url": "https://www.snmh.org.cn/",
-    "description": "上海自博的线上展厅和科普资源，了解生命演化。",
+    "id": "ai-experiments-quickdraw-data",
+    "name": "Quick Draw Dataset",
+    "url": "https://quickdraw.withgoogle.com/data",
+    "description": "看全世界的人怎么画同一个东西，像翻一本 AI 涂鸦图鉴。",
     "image": "/images/placeholders/toy-default.svg",
-    "category": "科学/科普",
+    "category": "AI 玩具",
     "tags": [
-      "博物馆",
-      "自然",
-      "国内"
+      "AI",
+      "涂鸦",
+      "数据"
     ],
     "contentMode": "useful",
-    "domesticPriority": true,
-    "mayNeedGlobalNetwork": false,
-    "childFriendly": true,
-    "safeLevel": 5,
-    "tested": false
-  },
-  {
-    "id": "kepu-china",
-    "name": "科普中国",
-    "url": "https://www.kepuchina.cn/",
-    "description": "中国科协主办的科普平台，内容权威、覆盖广泛。",
-    "image": "/images/placeholders/toy-default.svg",
-    "category": "科学/科普",
-    "tags": [
-      "科普",
-      "权威",
-      "国内"
-    ],
-    "contentMode": "useful",
-    "domesticPriority": true,
-    "mayNeedGlobalNetwork": false,
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false

@@ -6,7 +6,6 @@ import type { FilterState } from '../../src/utils/recommend';
 
 describe('Home', () => {
   const baseFilters: FilterState = {
-    networkMode: 'domestic',
     contentMode: 'light',
   };
 
@@ -20,10 +19,13 @@ describe('Home', () => {
     );
 
     const heading = screen.getByRole('heading', { level: 1 });
-    expect(heading.textContent).toMatch(/玩点啥\.?ai/i);
+    expect(heading).toHaveTextContent('玩点啥');
     expect(screen.getByText('随机发现一个好玩的网站')).toBeInTheDocument();
     expect(screen.getByRole('button', { name: '抽一下' })).toBeInTheDocument();
-    expect(screen.getByRole('group', { name: '网络环境' })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: '打开 GitHub 仓库' })).toHaveAttribute(
+      'href',
+      'https://github.com/Haaaiawd/wandiansha'
+    );
     expect(screen.getByRole('group', { name: '内容倾向' })).toBeInTheDocument();
   });
 
@@ -41,23 +43,6 @@ describe('Home', () => {
     expect(onDraw).toHaveBeenCalledTimes(1);
   });
 
-  it('toggles network mode', async () => {
-    const onFilterChange = vi.fn();
-    render(
-      <Home
-        filters={baseFilters}
-        onFilterChange={onFilterChange}
-        onDraw={vi.fn()}
-      />
-    );
-
-    await userEvent.click(screen.getByRole('button', { name: '全部' }));
-    expect(onFilterChange).toHaveBeenCalledWith({
-      networkMode: 'all',
-      contentMode: 'light',
-    });
-  });
-
   it('toggles content mode', async () => {
     const onFilterChange = vi.fn();
     render(
@@ -68,9 +53,8 @@ describe('Home', () => {
       />
     );
 
-    await userEvent.click(screen.getByRole('button', { name: '有点收获' }));
+    await userEvent.click(screen.getByRole('button', { name: '学点东西' }));
     expect(onFilterChange).toHaveBeenCalledWith({
-      networkMode: 'domestic',
       contentMode: 'useful',
     });
   });

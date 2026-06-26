@@ -1,0 +1,1414 @@
+{
+  "checkedAt": "2026-06-26T13:54:37.152Z",
+  "timeoutMs": 5000,
+  "proxy": {
+    "HTTP_PROXY": "http://127.0.0.1:55483",
+    "HTTPS_PROXY": "http://127.0.0.1:55483",
+    "ALL_PROXY": "http://127.0.0.1:55483"
+  },
+  "hasProxy": true,
+  "results": [
+    {
+      "id": "pointer-pointer",
+      "name": "Pointer Pointer",
+      "url": "https://pointerpointer.com/",
+      "hostname": "pointerpointer.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "104.21.38.89",
+        "family": 4,
+        "elapsedMs": 78
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://pointerpointer.com/",
+        "elapsedMs": 671
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "find-the-invisible-cow",
+      "name": "Find the Invisible Cow",
+      "url": "https://findtheinvisiblecow.com/",
+      "hostname": "findtheinvisiblecow.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "13.35.202.26",
+        "family": 4,
+        "elapsedMs": 306
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://findtheinvisiblecow.com/",
+        "elapsedMs": 186
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "cat-bounce",
+      "name": "Cat Bounce",
+      "url": "https://cat-bounce.com/",
+      "hostname": "cat-bounce.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "208.113.158.104",
+        "family": 4,
+        "elapsedMs": 76
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://cat-bounce.com/",
+        "elapsedMs": 1491
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "koalas-to-the-max",
+      "name": "Koalas to the Max",
+      "url": "https://koalastothemax.com/",
+      "hostname": "koalastothemax.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "162.241.226.220",
+        "family": 4,
+        "elapsedMs": 67
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://koalastothemax.com/",
+        "elapsedMs": 644
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "long-doge-challenge",
+      "name": "Long Doge Challenge",
+      "url": "https://longdogechallenge.com/",
+      "hostname": "longdogechallenge.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "13.215.239.219",
+        "family": 4,
+        "elapsedMs": 76
+      },
+      "http": {
+        "ok": false,
+        "error": "TypeError: fetch failed",
+        "elapsedMs": 68
+      },
+      "status": "CONNECT_FAIL",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "paper-toilet",
+      "name": "Paper Toilet",
+      "url": "https://papertoilet.com/",
+      "hostname": "papertoilet.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "138.68.199.111",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://papertoilet.com/",
+        "elapsedMs": 916
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "checkbox-race",
+      "name": "Checkbox Race",
+      "url": "https://checkboxrace.com/",
+      "hostname": "checkboxrace.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "13.215.239.219",
+        "family": 4,
+        "elapsedMs": 78
+      },
+      "http": {
+        "ok": false,
+        "error": "TypeError: fetch failed",
+        "elapsedMs": 66
+      },
+      "status": "CONNECT_FAIL",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "quick-draw",
+      "name": "Quick, Draw!",
+      "url": "https://quickdraw.withgoogle.com/",
+      "hostname": "quickdraw.withgoogle.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "142.250.73.81",
+        "family": 4,
+        "elapsedMs": 82
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5016
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "auto-draw",
+      "name": "AutoDraw",
+      "url": "https://www.autodraw.com/",
+      "hostname": "www.autodraw.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "74.125.20.121",
+        "family": 4,
+        "elapsedMs": 84
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://www.autodraw.com/",
+        "elapsedMs": 776
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "blob-opera",
+      "name": "Blob Opera",
+      "url": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
+      "hostname": "artsandculture.google.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "173.194.43.139",
+        "family": 4,
+        "elapsedMs": 69
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5017
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "chrome-music-lab",
+      "name": "Chrome Music Lab",
+      "url": "https://musiclab.chromeexperiments.com/",
+      "hostname": "musiclab.chromeexperiments.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "74.125.199.121",
+        "family": 4,
+        "elapsedMs": 620
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://musiclab.chromeexperiments.com/",
+        "elapsedMs": 951
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "song-maker",
+      "name": "Song Maker",
+      "url": "https://musiclab.chromeexperiments.com/Song-Maker/",
+      "hostname": "musiclab.chromeexperiments.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "74.125.199.121",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://musiclab.chromeexperiments.com/Song-Maker/",
+        "elapsedMs": 277
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "patatap",
+      "name": "Patatap",
+      "url": "https://patatap.com/",
+      "hostname": "patatap.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "216.239.36.21",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5000
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "typedrummer",
+      "name": "Typedrummer",
+      "url": "https://typedrummer.com/",
+      "hostname": "typedrummer.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "198.199.117.33",
+        "family": 4,
+        "elapsedMs": 514
+      },
+      "http": {
+        "ok": false,
+        "error": "TypeError: fetch failed",
+        "elapsedMs": 3039
+      },
+      "status": "CONNECT_FAIL",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "purrli",
+      "name": "Purrli",
+      "url": "https://purrli.com/",
+      "hostname": "purrli.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "46.30.213.109",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": false,
+        "error": "TypeError: fetch failed",
+        "elapsedMs": 328
+      },
+      "status": "CONNECT_FAIL",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "weave-silk",
+      "name": "Weave Silk",
+      "url": "https://weavesilk.com/",
+      "hostname": "weavesilk.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "16.182.104.37",
+        "family": 4,
+        "elapsedMs": 74
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5003
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "neon-flames",
+      "name": "Neon Flames",
+      "url": "https://29a.ch/sandbox/2011/neonflames/",
+      "hostname": "29a.ch",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "172.67.152.180",
+        "family": 4,
+        "elapsedMs": 86
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://29a.ch/sandbox/2011/neonflames/",
+        "elapsedMs": 1544
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "this-is-sand",
+      "name": "This Is Sand",
+      "url": "https://thisissand.com/",
+      "hostname": "thisissand.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "198.58.116.172",
+        "family": 4,
+        "elapsedMs": 0
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://thisissand.com/",
+        "elapsedMs": 812
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "sandspiel",
+      "name": "Sandspiel",
+      "url": "https://sandspiel.club/",
+      "hostname": "sandspiel.club",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "151.101.65.195",
+        "family": 4,
+        "elapsedMs": 79
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5010
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "fluid-simulation",
+      "name": "Fluid Simulation",
+      "url": "https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
+      "hostname": "paveldogreat.github.io",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "185.199.109.153",
+        "family": 4,
+        "elapsedMs": 80
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
+        "elapsedMs": 471
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "deep-sea",
+      "name": "The Deep Sea",
+      "url": "https://neal.fun/deep-sea/",
+      "hostname": "neal.fun",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "172.66.162.110",
+        "family": 4,
+        "elapsedMs": 77
+      },
+      "http": {
+        "ok": true,
+        "status": 403,
+        "finalUrl": "https://neal.fun/deep-sea/",
+        "elapsedMs": 695
+      },
+      "status": "REACHABLE_RESTRICTED",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "size-of-space",
+      "name": "The Size of Space",
+      "url": "https://neal.fun/size-of-space/",
+      "hostname": "neal.fun",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "172.66.162.110",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://neal.fun/size-of-space/",
+        "elapsedMs": 608
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "spend-bill-gates-money",
+      "name": "Spend Bill Gates' Money",
+      "url": "https://neal.fun/spend/",
+      "hostname": "neal.fun",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "172.66.162.110",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 403,
+        "finalUrl": "https://neal.fun/spend/",
+        "elapsedMs": 230
+      },
+      "status": "REACHABLE_RESTRICTED",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "draw-logos-from-memory",
+      "name": "Draw Logos From Memory",
+      "url": "https://neal.fun/logos-from-memory/",
+      "hostname": "neal.fun",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "172.66.162.110",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 403,
+        "finalUrl": "https://neal.fun/logos-from-memory/",
+        "elapsedMs": 596
+      },
+      "status": "REACHABLE_RESTRICTED",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "design-next-iphone",
+      "name": "Design the Next iPhone",
+      "url": "https://neal.fun/design-the-next-iphone/",
+      "hostname": "neal.fun",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "172.66.162.110",
+        "family": 4,
+        "elapsedMs": 0
+      },
+      "http": {
+        "ok": true,
+        "status": 403,
+        "finalUrl": "https://neal.fun/design-the-next-iphone/",
+        "elapsedMs": 616
+      },
+      "status": "REACHABLE_RESTRICTED",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "wonders-of-street-view",
+      "name": "Wonders of Street View",
+      "url": "https://neal.fun/wonders-of-street-view/",
+      "hostname": "neal.fun",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "172.66.162.110",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 403,
+        "finalUrl": "https://neal.fun/wonders-of-street-view/",
+        "elapsedMs": 586
+      },
+      "status": "REACHABLE_RESTRICTED",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "password-game",
+      "name": "The Password Game",
+      "url": "https://neal.fun/password-game/",
+      "hostname": "neal.fun",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "172.66.162.110",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 403,
+        "finalUrl": "https://neal.fun/password-game/",
+        "elapsedMs": 650
+      },
+      "status": "REACHABLE_RESTRICTED",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "little-alchemy-2",
+      "name": "Little Alchemy 2",
+      "url": "https://littlealchemy2.com/",
+      "hostname": "littlealchemy2.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "104.26.12.171",
+        "family": 4,
+        "elapsedMs": 83
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://littlealchemy2.com/",
+        "elapsedMs": 482
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "play-2048",
+      "name": "2048",
+      "url": "https://play2048.co/",
+      "hostname": "play2048.co",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "172.67.144.178",
+        "family": 4,
+        "elapsedMs": 81
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://play2048.co/",
+        "elapsedMs": 695
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "human-benchmark-reaction",
+      "name": "Reaction Time Test",
+      "url": "https://humanbenchmark.com/tests/reactiontime",
+      "hostname": "humanbenchmark.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "52.74.6.109",
+        "family": 4,
+        "elapsedMs": 74
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://humanbenchmark.com/tests/reactiontime",
+        "elapsedMs": 202
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "the-zen-zone",
+      "name": "The Zen Zone",
+      "url": "https://thezen.zone/",
+      "hostname": "thezen.zone",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "52.74.6.109",
+        "family": 4,
+        "elapsedMs": 75
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://thezen.zone/",
+        "elapsedMs": 188
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "staggering-beauty",
+      "name": "Staggering Beauty",
+      "url": "https://staggeringbeauty.com/",
+      "hostname": "staggeringbeauty.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "69.163.183.130",
+        "family": 4,
+        "elapsedMs": 70
+      },
+      "http": {
+        "ok": false,
+        "error": "TypeError: fetch failed",
+        "elapsedMs": 476
+      },
+      "status": "CONNECT_FAIL",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "eelslap",
+      "name": "Eel Slap",
+      "url": "https://eelslap.com/",
+      "hostname": "eelslap.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "162.0.235.241",
+        "family": 4,
+        "elapsedMs": 4
+      },
+      "http": {
+        "ok": false,
+        "error": "TypeError: fetch failed",
+        "elapsedMs": 511
+      },
+      "status": "CONNECT_FAIL",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "omfgdogs",
+      "name": "OMFGDOGS",
+      "url": "https://www.omfgdogs.com/",
+      "hostname": "www.omfgdogs.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "172.67.186.175",
+        "family": 4,
+        "elapsedMs": 307
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://www.omfgdogs.com/",
+        "elapsedMs": 597
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "heeeeeeeey",
+      "name": "Heeeeeeeey",
+      "url": "https://heeeeeeeey.com/",
+      "hostname": "heeeeeeeey.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "151.101.1.195",
+        "family": 4,
+        "elapsedMs": 67
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5009
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "hooooooooo",
+      "name": "Hooooooo",
+      "url": "https://hooooooooo.com/",
+      "hostname": "hooooooooo.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "151.101.65.195",
+        "family": 4,
+        "elapsedMs": 524
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5013
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "cant-not-tweet-this",
+      "name": "Can't Not Tweet This",
+      "url": "https://cant-not-tweet-this.com/",
+      "hostname": "cant-not-tweet-this.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "13.215.239.219",
+        "family": 4,
+        "elapsedMs": 256
+      },
+      "http": {
+        "ok": false,
+        "error": "TypeError: fetch failed",
+        "elapsedMs": 64
+      },
+      "status": "CONNECT_FAIL",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "rrrgggbbb",
+      "name": "rrrgggbbb",
+      "url": "https://rrrgggbbb.com/",
+      "hostname": "rrrgggbbb.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "141.138.169.235",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": false,
+        "error": "TypeError: fetch failed",
+        "elapsedMs": 275
+      },
+      "status": "CONNECT_FAIL",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "binary-piano",
+      "name": "Binary Piano",
+      "url": "https://binarypiano.com/",
+      "hostname": "binarypiano.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "13.215.239.219",
+        "family": 4,
+        "elapsedMs": 451
+      },
+      "http": {
+        "ok": false,
+        "error": "TypeError: fetch failed",
+        "elapsedMs": 70
+      },
+      "status": "CONNECT_FAIL",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "keyboard-drumset",
+      "name": "Virtual Drumming",
+      "url": "https://www.virtualdrumming.com/drums/online-virtual-games/online-virtual-games-drums.html",
+      "hostname": "www.virtualdrumming.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "104.21.80.62",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://www.virtualdrumming.com/drums/online-virtual-games/online-virtual-games-drums.html",
+        "elapsedMs": 710
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "online-sequencer",
+      "name": "Online Sequencer",
+      "url": "https://onlinesequencer.net/",
+      "hostname": "onlinesequencer.net",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "104.21.61.89",
+        "family": 4,
+        "elapsedMs": 73
+      },
+      "http": {
+        "ok": true,
+        "status": 403,
+        "finalUrl": "https://onlinesequencer.net/",
+        "elapsedMs": 661
+      },
+      "status": "REACHABLE_RESTRICTED",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "beepbox",
+      "name": "BeepBox",
+      "url": "https://www.beepbox.co/",
+      "hostname": "www.beepbox.co",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "173.194.43.121",
+        "family": 4,
+        "elapsedMs": 75
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5004
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "incredibox-demo",
+      "name": "Incredibox Demo",
+      "url": "https://www.incredibox.com/demo/",
+      "hostname": "www.incredibox.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "213.225.239.225",
+        "family": 4,
+        "elapsedMs": 85
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://www.incredibox.com/demo/",
+        "elapsedMs": 854
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "bomomo",
+      "name": "Bomomo",
+      "url": "https://bomomo.com/",
+      "hostname": "bomomo.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "217.160.0.207",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://bomomo.com/",
+        "elapsedMs": 739
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "sketchpad",
+      "name": "Sketchpad",
+      "url": "https://sketch.io/sketchpad/",
+      "hostname": "sketch.io",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "104.26.3.84",
+        "family": 4,
+        "elapsedMs": 85
+      },
+      "http": {
+        "ok": false,
+        "error": "TypeError: fetch failed",
+        "elapsedMs": 155
+      },
+      "status": "CONNECT_FAIL",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "mr-doob-harmony",
+      "name": "Harmony",
+      "url": "https://mrdoob.com/projects/harmony/",
+      "hostname": "mrdoob.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "185.199.109.153",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://mrdoob.com/projects/harmony/",
+        "elapsedMs": 622
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "mr-doob-ball-pool",
+      "name": "Ball Pool",
+      "url": "https://mrdoob.com/projects/chromeexperiments/ball_pool/",
+      "hostname": "mrdoob.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "185.199.109.153",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://mrdoob.com/projects/chromeexperiments/ball_pool/",
+        "elapsedMs": 155
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "ribbon",
+      "name": "Ribbon",
+      "url": "https://mrdoob.com/projects/chromeexperiments/ribbon/",
+      "hostname": "mrdoob.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "185.199.109.153",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 404,
+        "finalUrl": "https://mrdoob.com/projects/chromeexperiments/ribbon/",
+        "elapsedMs": 162
+      },
+      "status": "REACHABLE_RESTRICTED",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "google-gravity",
+      "name": "Google Gravity",
+      "url": "https://mrdoob.com/projects/chromeexperiments/google-gravity/",
+      "hostname": "mrdoob.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "185.199.109.153",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://mrdoob.com/projects/chromeexperiments/google-gravity/",
+        "elapsedMs": 166
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "solitaire-card-games",
+      "name": "Solitaire",
+      "url": "https://solitaired.com/",
+      "hostname": "solitaired.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "13.35.202.39",
+        "family": 4,
+        "elapsedMs": 78
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://solitaired.com/",
+        "elapsedMs": 428
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "tetris-n-blox",
+      "name": "Tetris N-Blox",
+      "url": "https://www.freetetris.org/game.php",
+      "hostname": "www.freetetris.org",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "172.67.178.197",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://www.freetetris.org/game.php",
+        "elapsedMs": 864
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "hextris",
+      "name": "Hextris",
+      "url": "https://hextris.io/",
+      "hostname": "hextris.io",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "185.199.110.153",
+        "family": 4,
+        "elapsedMs": 82
+      },
+      "http": {
+        "ok": false,
+        "error": "TypeError: fetch failed",
+        "elapsedMs": 153
+      },
+      "status": "CONNECT_FAIL",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "agar-io",
+      "name": "Agar.io",
+      "url": "https://agar.io/",
+      "hostname": "agar.io",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "3.169.252.80",
+        "family": 4,
+        "elapsedMs": 370
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://agar.io/",
+        "elapsedMs": 858
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "slither-io",
+      "name": "Slither.io",
+      "url": "https://slither.io/",
+      "hostname": "slither.io",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "172.66.156.205",
+        "family": 4,
+        "elapsedMs": 77
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "http://slither.io/?a",
+        "elapsedMs": 1552
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "flappy-bird-html5",
+      "name": "Flappy Bird",
+      "url": "https://flappybird.io/",
+      "hostname": "flappybird.io",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "64.176.199.138",
+        "family": 4,
+        "elapsedMs": 70
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://flappybird.io/",
+        "elapsedMs": 747
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "wordle-nytimes",
+      "name": "Wordle",
+      "url": "https://www.nytimes.com/games/wordle/index.html",
+      "hostname": "www.nytimes.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "185.45.7.185",
+        "family": 4,
+        "elapsedMs": 81
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5004
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "worldle",
+      "name": "Worldle",
+      "url": "https://worldle.teuteuf.fr/",
+      "hostname": "worldle.teuteuf.fr",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "104.21.44.82",
+        "family": 4,
+        "elapsedMs": 0
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://worldle.teuteuf.fr/",
+        "elapsedMs": 702
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "geoguessr-free",
+      "name": "GeoGuessr Free",
+      "url": "https://www.geoguessr.com/free",
+      "hostname": "www.geoguessr.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "104.18.1.96",
+        "family": 4,
+        "elapsedMs": 73
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://www.geoguessr.com/free",
+        "elapsedMs": 680
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "radio-garden",
+      "name": "Radio Garden",
+      "url": "https://radio.garden/",
+      "hostname": "radio.garden",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "162.125.32.12",
+        "family": 4,
+        "elapsedMs": 86
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5009
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "earth-nullschool",
+      "name": "Earth Wind Map",
+      "url": "https://earth.nullschool.net/",
+      "hostname": "earth.nullschool.net",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "104.26.11.231",
+        "family": 4,
+        "elapsedMs": 87
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://earth.nullschool.net/",
+        "elapsedMs": 469
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "stars-chrome-experiment",
+      "name": "100,000 Stars",
+      "url": "https://stars.chromeexperiments.com/",
+      "hostname": "stars.chromeexperiments.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "74.125.199.121",
+        "family": 4,
+        "elapsedMs": 302
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://stars.chromeexperiments.com/",
+        "elapsedMs": 691
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "scale-of-universe",
+      "name": "Scale of the Universe",
+      "url": "https://htwins.net/scale2/",
+      "hostname": "htwins.net",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "50.87.249.219",
+        "family": 4,
+        "elapsedMs": 78
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://htwins.net/scale2/",
+        "elapsedMs": 708
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "access-mars",
+      "name": "Access Mars",
+      "url": "https://accessmars.withgoogle.com/",
+      "hostname": "accessmars.withgoogle.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "142.251.33.209",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5007
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "metkids-map",
+      "name": "MetKids Map",
+      "url": "https://www.metmuseum.org/art/online-features/metkids/explore/",
+      "hostname": "www.metmuseum.org",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "76.76.21.21",
+        "family": 4,
+        "elapsedMs": 86
+      },
+      "http": {
+        "ok": true,
+        "status": 429,
+        "finalUrl": "https://www.metmuseum.org/art/online-features/metkids/explore/",
+        "elapsedMs": 197
+      },
+      "status": "REACHABLE_RESTRICTED",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "teachable-machine",
+      "name": "Teachable Machine",
+      "url": "https://teachablemachine.withgoogle.com/",
+      "hostname": "teachablemachine.withgoogle.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "142.250.73.145",
+        "family": 4,
+        "elapsedMs": 0
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5001
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "semiconductor",
+      "name": "Semi-Conductor",
+      "url": "https://semiconductor.withgoogle.com/",
+      "hostname": "semiconductor.withgoogle.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "142.250.73.81",
+        "family": 4,
+        "elapsedMs": 1
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5009
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "thing-translator",
+      "name": "Thing Translator",
+      "url": "https://thing-translator.appspot.com/",
+      "hostname": "thing-translator.appspot.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "31.13.94.41",
+        "family": 4,
+        "elapsedMs": 98
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5014
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    },
+    {
+      "id": "ai-experiments-quickdraw-data",
+      "name": "Quick Draw Dataset",
+      "url": "https://quickdraw.withgoogle.com/data",
+      "hostname": "quickdraw.withgoogle.com",
+      "currentMayNeedGlobalNetwork": true,
+      "dns": {
+        "ok": true,
+        "address": "142.250.73.81",
+        "family": 4,
+        "elapsedMs": 84
+      },
+      "http": {
+        "ok": false,
+        "error": "AbortError: This operation was aborted",
+        "elapsedMs": 5007
+      },
+      "status": "TIMEOUT",
+      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+    }
+  ]
+}

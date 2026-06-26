@@ -1,5 +1,5 @@
 {
-  "name": "wandiansha-ai",
+  "name": "wandiansha",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -8,6 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "capture:images": "node scripts/capture-site-images.mjs",
+    "check:connectivity": "node scripts/check-connectivity.mjs",
     "test": "vitest run",
     "test:unit": "vitest run tests/unit tests/api tests/components tests/integration",
     "test:e2e": "playwright test",

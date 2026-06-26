@@ -2,7 +2,6 @@ import { describe, it, expect } from 'vitest';
 import {
   recommendSites,
   filterSafeSites,
-  sortByNetworkMode,
   sortByContentMode,
   shuffleSites,
 } from '../../src/utils/recommend';
@@ -49,33 +48,6 @@ describe('filterSafeSites', () => {
   });
 });
 
-describe('sortByNetworkMode', () => {
-  it('puts domestic-friendly sites first in domestic mode', () => {
-    const global = site({ id: 'global', mayNeedGlobalNetwork: true });
-    const domestic = site({ id: 'domestic', domesticPriority: true });
-    const sorted = sortByNetworkMode([global, domestic], 'domestic');
-    expect(sorted[0].id).toBe('domestic');
-    expect(sorted[1].id).toBe('global');
-  });
-
-  it('keeps original order in all mode', () => {
-    const a = site({ id: 'a', mayNeedGlobalNetwork: true });
-    const b = site({ id: 'b', domesticPriority: true });
-    const sorted = sortByNetworkMode([a, b], 'all');
-    expect(sorted[0].id).toBe('a');
-    expect(sorted[1].id).toBe('b');
-  });
-
-  it('retains all safe sites when domestic results are insufficient', () => {
-    const globalA = site({ id: 'global-a', mayNeedGlobalNetwork: true });
-    const globalB = site({ id: 'global-b', mayNeedGlobalNetwork: true });
-    const sorted = sortByNetworkMode([globalA, globalB], 'domestic');
-    expect(sorted).toHaveLength(2);
-    expect(sorted.map((s) => s.id)).toContain('global-a');
-    expect(sorted.map((s) => s.id)).toContain('global-b');
-  });
-});
-
 describe('sortByContentMode', () => {
   it('puts matching contentMode first', () => {
     const useful = site({ id: 'useful', contentMode: 'useful' });
@@ -110,40 +82,40 @@ describe('recommendSites', () => {
   it('returns safe sites only', () => {
     const safe = site({ id: 'safe' });
     const unsafe = site({ id: 'unsafe', safeLevel: 3 });
-    const result = recommendSites([safe, unsafe], { networkMode: 'all', contentMode: 'light' });
+    const result = recommendSites([safe, unsafe], { contentMode: 'light' });
     expect(result).toHaveLength(1);
     expect(result[0].id).toBe('safe');
   });
 
-  it('retains domestic-friendly sites in domestic mode', () => {
-    const global = site({ id: 'global', mayNeedGlobalNetwork: true, contentMode: 'useful' });
-    const domestic = site({ id: 'domestic', domesticPriority: true, contentMode: 'light' });
-    const result = recommendSites([global, domestic], { networkMode: 'domestic', contentMode: 'light' });
-    expect(result.map((s) => s.id).sort()).toEqual(['domestic', 'global']);
+  it('retains all safe child-friendly sites', () => {
+    const safe = site({ id: 'safe', safeLevel: 5, contentMode: 'light' });
+    const borderline = site({ id: 'borderline', safeLevel: 4, contentMode: 'useful' });
+    const result = recommendSites([safe, borderline], { contentMode: 'light' });
+    expect(result.map((s) => s.id).sort()).toEqual(['borderline', 'safe']);
   });
 
   it('retains light content in light mode', () => {
     const useful = site({ id: 'useful', contentMode: 'useful', mayNeedGlobalNetwork: true });
     const light = site({ id: 'light', contentMode: 'light', mayNeedGlobalNetwork: true });
-    const result = recommendSites([useful, light], { networkMode: 'all', contentMode: 'light' });
+    const result = recommendSites([useful, light], { contentMode: 'light' });
     expect(result.map((s) => s.id).sort()).toEqual(['light', 'useful']);
   });
 
   it('retains useful content in useful mode', () => {
     const useful = site({ id: 'useful', contentMode: 'useful' });
     const light = site({ id: 'light', contentMode: 'light' });
-    const result = recommendSites([light, useful], { networkMode: 'all', contentMode: 'useful' });
+    const result = recommendSites([light, useful], { contentMode: 'useful' });
     expect(result.map((s) => s.id).sort()).toEqual(['light', 'useful']);
   });
 
   it('returns empty array when nothing is safe', () => {
     const unsafe = site({ safeLevel: 3 });
-    const result = recommendSites([unsafe], { networkMode: 'all', contentMode: 'light' });
+    const result = recommendSites([unsafe], { contentMode: 'light' });
     expect(result).toEqual([]);
   });
 
   it('returns empty array for empty input', () => {
-    const result = recommendSites([], { networkMode: 'all', contentMode: 'light' });
+    const result = recommendSites([], { contentMode: 'light' });
     expect(result).toEqual([]);
   });
 
@@ -153,7 +125,7 @@ describe('recommendSites', () => {
       site({ id: 'b', safeLevel: 3 }),
       site({ id: 'c', contentMode: 'useful' }),
     ];
-    const result = recommendSites(input, { networkMode: 'all', contentMode: 'light' });
+    const result = recommendSites(input, { contentMode: 'light' });
     expect(result.map((s) => s.id).sort()).toEqual(['a', 'c']);
   });
 });

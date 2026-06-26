@@ -21,7 +21,7 @@ export function FilterSwitch<T extends string>({
     <div
       role="group"
       aria-label={ariaLabel}
-      className="glass inline-flex items-center rounded-full p-1 shadow-sm"
+      className="inline-flex items-center rounded-full border border-zinc-200 bg-zinc-50 p-1 shadow-sm"
     >
       <button
         type="button"
@@ -29,8 +29,8 @@ export function FilterSwitch<T extends string>({
         onClick={() => onChange(left)}
         className={`rounded-full px-5 py-2.5 text-sm font-semibold transition-all duration-200 ${
           isLeft
-            ? 'bg-teal-600 text-white shadow-md'
-            : 'text-teal-700 hover:bg-teal-50/60'
+            ? 'bg-zinc-950 text-white shadow-sm'
+            : 'text-zinc-600 hover:bg-white hover:text-zinc-950'
         }`}
       >
         {leftLabel}
@@ -41,8 +41,8 @@ export function FilterSwitch<T extends string>({
         onClick={() => onChange(right)}
         className={`rounded-full px-5 py-2.5 text-sm font-semibold transition-all duration-200 ${
           !isLeft
-            ? 'bg-teal-600 text-white shadow-md'
-            : 'text-teal-700 hover:bg-teal-50/60'
+            ? 'bg-zinc-950 text-white shadow-sm'
+            : 'text-zinc-600 hover:bg-white hover:text-zinc-950'
         }`}
       >
         {rightLabel}

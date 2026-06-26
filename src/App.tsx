@@ -8,7 +8,6 @@ import sites, { sitesLoadError } from './data/sites.ts';
 import { openExternal } from './utils/openExternal.ts';
 
 const DEFAULT_FILTERS: FilterState = {
-  networkMode: 'domestic',
   contentMode: 'light',
 };
 
@@ -50,7 +49,7 @@ function AppContent() {
             <button
               type="button"
               onClick={handleBack}
-              className="rounded-full bg-teal-600 px-6 py-2.5 text-sm font-semibold text-white shadow-md transition-all hover:bg-teal-700 hover:shadow-lg active:scale-95"
+              className="rounded-full bg-zinc-950 px-6 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-zinc-800 active:scale-95"
             >
               返回首页
             </button>

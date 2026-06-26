@@ -38,6 +38,11 @@ describe('SiteCard', () => {
     expect(screen.getByText('可能需要外网')).toBeInTheDocument();
   });
 
+  it('shows domestic-friendly hint when mayNeedGlobalNetwork is false', () => {
+    render(<SiteCard site={site({ mayNeedGlobalNetwork: false })} onClick={vi.fn()} />);
+    expect(screen.getByText('国内可试')).toBeInTheDocument();
+  });
+
   it('uses placeholder fallback image path', () => {
     render(<SiteCard site={site()} onClick={vi.fn()} />);
     const img = screen.getByRole('img', { name: 'Test Site' }) as HTMLImageElement;
