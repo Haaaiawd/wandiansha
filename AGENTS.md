@@ -83,12 +83,16 @@
 
 - **最新架构版本**: `.anws/v1`
 - **活动任务清单**: `.anws/v1/05A_TASKS.md`
-- **待办任务数**: 17
+- **待办任务数**: 14
 - **最近一次更新**: `2026-06-26`
 
-### Wave 1 — 待 /blueprint 或 /forge 设置
+### Wave 1 — Data Core 骨架与数据资产（已完成）
 
-*由 `/blueprint` 或 `/forge` 自动填充*
+T1.1.1, T3.1.1, T4.1.1
+
+- 工程骨架、31 条网站数据、schema 校验、占位图与资产审计已落地。
+- 波末 code-reviewer: `.anws/v1/wave-reviews/wave-1-review.md`（最高残留 Medium：tested=false 与占位图待后续波次闭合）。
+- §3.7 E2E: N/A。
 
 ---
 
@@ -157,7 +161,8 @@ public/images/             (待创建网站示意图与占位图)
 - `/genesis` 已完成。
 - `/blueprint` 已完成；`05A_TASKS.md` 与 `05B_VERIFICATION_PLAN.md` 已生成。
 - `/challenge` 已完成；CH-01 到 CH-08 已由 `/change` 修复。
-- 等待 `/forge` 执行 React + Vite Demo 实现。
+- `/forge` Wave 1 已完成：T1.1.1、T3.1.1、T4.1.1 已提交，code-reviewer 已落盘，最高残留 Medium 待 T3.2.1/T1.3.1 闭合。
+- 下一步：Wave 2 实现推荐纯函数 T2.1.1 / T2.1.2 / INT-S1。
 
 <!-- AUTO:END -->
 
