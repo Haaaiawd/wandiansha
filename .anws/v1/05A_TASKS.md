@@ -302,7 +302,7 @@ graph TD
 
 ### Phase 3: Polish
 
-- [ ] **T3.2.1** [REQ-007]: 完成首批内容复核与 `tested` 标记
+- [x] **T3.2.1** [REQ-007]: 完成首批内容复核与 `tested` 标记
   - **描述**: 复核首批网站安全风险、外网标记、说明长度、图片路径和资产覆盖。
   - **输入**: `ADR_002_RECOMMENDATION_AND_SAFETY.md §内容安全规则`, `T3.1.1` 产出的 `sites.json`, `T4.1.1` 产出的图片资产
   - **输出**: 更新后的 `src/data/sites.json`, `reports/content-audit.md`, `reports/assets-audit.md`
