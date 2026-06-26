@@ -86,11 +86,12 @@
 - **待办任务数**: 14
 - **最近一次更新**: `2026-06-26`
 
-### Wave 4 — S2 Playable UI 后半（进行中）
+### Wave 4 — S2 Playable UI 后半（已完成）
 
 T1.2.5, INT-S2
 
-- 补齐 UI 组件测试，执行 S2 手动冒烟验证，S2 关门。
+- 补齐 UI 组件测试，执行 S2 手动冒烟验证（guide-only），S2 关门。
+- code-reviewer 结论 Pass，最高残留 Low 已修复。
 
 ---
 
@@ -161,8 +162,8 @@ public/images/             (待创建网站示意图与占位图)
 - `/challenge` 已完成；CH-01 到 CH-08 已由 `/change` 修复。
 - `/forge` Wave 1 已完成：T1.1.1、T3.1.1、T4.1.1 已提交，code-reviewer 已落盘，最高残留 Medium 待 T3.2.1/T1.3.1 闭合。
 - `/forge` Wave 2 已完成：T2.1.1、T2.1.2、INT-S1 已提交，S1 Data Core 关门。
-- `/forge` Wave 3 已完成：T1.2.1、T1.2.2、T1.2.3、T1.2.4 已提交，S2 Playable UI 前半完成，最高残留 Medium 待 T1.2.5 补齐。
-- 下一步：Wave 4 实现 T1.2.5 组件测试与 INT-S2 集成验证。
+- `/forge` Wave 4 已完成：T1.2.5、INT-S2 已提交，code-reviewer 已落盘，结论 Pass，最高残留 Low 已修复，S2 关门。
+- 下一步：Wave 5 实现 S3 Event Ready（T1.3.1、T3.2.1、T1.3.2、T1.3.3、INT-S3），可调用 taste skill 提升视觉质感。
 
 <!-- AUTO:END -->
 
