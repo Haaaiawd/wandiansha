@@ -1,0 +1,591 @@
+[
+  {
+    "id": "quick-draw",
+    "name": "Quick, Draw!",
+    "url": "https://quickdraw.withgoogle.com/",
+    "description": "你画一个东西，看 AI 能不能在 20 秒内猜出来。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "AI/创意",
+    "tags": [
+      "AI",
+      "画画",
+      "猜谜"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "auto-draw",
+    "name": "AutoDraw",
+    "url": "https://www.autodraw.com/",
+    "description": "随手画几笔，AI 会把它变成好看的简笔画。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "AI/创意",
+    "tags": [
+      "AI",
+      "画画",
+      "创意"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "ai-duet",
+    "name": "AI Duet",
+    "url": "https://aiduet.withgoogle.com/",
+    "description": "弹几个音符，AI 会接着你的旋律一起弹钢琴。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "AI/创意",
+    "tags": [
+      "AI",
+      "音乐",
+      "钢琴"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "semantris",
+    "name": "Semantris",
+    "url": "https://research.google.com/semantris/",
+    "description": "用 AI 理解语义的文字消消乐，输入相关词来得分。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "AI/创意",
+    "tags": [
+      "AI",
+      "文字",
+      "游戏"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "chrome-music-lab",
+    "name": "Chrome Music Lab",
+    "url": "https://musiclab.chromeexperiments.com/",
+    "description": "Google 的在线音乐实验室，可以玩节奏、旋律、声波和画音乐。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "AI/创意",
+    "tags": [
+      "音乐",
+      "实验",
+      "声音"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "sketchpad",
+    "name": "Sketchpad",
+    "url": "https://sketch.io/sketchpad/",
+    "description": "功能齐全的在线画板，打开就能随手涂鸦。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "AI/创意",
+    "tags": [
+      "画画",
+      "创作",
+      "工具"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "nasa-kids-club",
+    "name": "NASA Kids' Club",
+    "url": "https://www.nasa.gov/kidsclub/",
+    "description": "NASA 给小朋友做的太空科普站，有游戏、图片和任务介绍。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "科学/科普",
+    "tags": [
+      "太空",
+      "NASA",
+      "科普"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "national-geographic-kids",
+    "name": "National Geographic Kids",
+    "url": "https://kids.nationalgeographic.com/",
+    "description": "国家地理儿童版，看动物、自然和科学的小知识。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "科学/科普",
+    "tags": [
+      "动物",
+      "自然",
+      "科普"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "exploratorium",
+    "name": "Exploratorium",
+    "url": "https://www.exploratorium.edu/",
+    "description": "美国探索馆的科学实验和互动展品，适合边玩边学。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "科学/科普",
+    "tags": [
+      "科学",
+      "实验",
+      "博物馆"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "phet",
+    "name": "PhET 互动仿真",
+    "url": "https://phet.colorado.edu/",
+    "description": "科罗拉多大学的物理、化学、数学互动仿真程序，直观好玩。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "科学/科普",
+    "tags": [
+      "仿真",
+      "物理",
+      "数学"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "wonderopolis",
+    "name": "Wonderopolis",
+    "url": "https://wonderopolis.org/",
+    "description": "每天回答一个孩子的「为什么」，比如天空为什么是蓝色的。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "科学/科普",
+    "tags": [
+      "问答",
+      "好奇心",
+      "科普"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "china-digital-science-museum",
+    "name": "中国数字科技馆",
+    "url": "https://www.cdstm.cn/",
+    "description": "国内综合科普平台，包含展览、实验和数字资源。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "科学/科普",
+    "tags": [
+      "科普",
+      "展览",
+      "国内"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "scratch",
+    "name": "Scratch",
+    "url": "https://scratch.mit.edu/",
+    "description": "麻省理工的图形化编程社区，用积木块做动画和小游戏。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "编程/学习",
+    "tags": [
+      "编程",
+      "创作",
+      "社区"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "code-org",
+    "name": "Code.org",
+    "url": "https://code.org/",
+    "description": "免费的编程入门课程，用游戏化的方式教基础逻辑。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "编程/学习",
+    "tags": [
+      "编程",
+      "课程",
+      "逻辑"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "blockly-games",
+    "name": "Blockly Games",
+    "url": "https://blockly.games/",
+    "description": "Google 出的积木编程小游戏，从迷宫到音乐逐步进阶。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "编程/学习",
+    "tags": [
+      "编程",
+      "游戏",
+      "逻辑"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "khan-academy",
+    "name": "Khan Academy",
+    "url": "https://www.khanacademy.org/",
+    "description": "可汗学院，免费学习数学、科学、编程和艺术。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "编程/学习",
+    "tags": [
+      "学习",
+      "课程",
+      "免费"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "duolingo",
+    "name": "Duolingo",
+    "url": "https://www.duolingo.com/",
+    "description": "游戏化学习外语，每天几分钟积累词汇和句子。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "编程/学习",
+    "tags": [
+      "语言",
+      "学习",
+      "游戏"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "khan-academy-zh",
+    "name": "可汗学院中文版",
+    "url": "https://zh.khanacademy.org/",
+    "description": "可汗学院的中文界面，适合中文环境学习基础学科。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "编程/学习",
+    "tags": [
+      "学习",
+      "中文",
+      "课程"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "palace-museum-digital",
+    "name": "故宫博物院数字文物库",
+    "url": "https://www.dpm.org.cn/lights/royal.html",
+    "description": "在线浏览故宫藏品和建筑，放大看文物细节。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "艺术/文化",
+    "tags": [
+      "故宫",
+      "文物",
+      "历史"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "national-museum-china",
+    "name": "中国国家博物馆",
+    "url": "https://www.chnmuseum.cn/",
+    "description": "国博的线上展览和藏品介绍，了解中国历史和文化。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "艺术/文化",
+    "tags": [
+      "博物馆",
+      "历史",
+      "国内"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "storyline-online",
+    "name": "Storyline Online",
+    "url": "https://storylineonline.net/",
+    "description": "演员朗读绘本故事，配字幕和插画，适合练听力。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "艺术/文化",
+    "tags": [
+      "故事",
+      "绘本",
+      "英语"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "beauty-of-science",
+    "name": "美丽科学",
+    "url": "https://www.beautyofscience.cn/",
+    "description": "用精美影像呈现化学反应和自然科学现象。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "艺术/文化",
+    "tags": [
+      "科学",
+      "影像",
+      "艺术"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "geoguessr",
+    "name": "GeoGuessr",
+    "url": "https://www.geoguessr.com/",
+    "description": "把你随机放到世界某个街景，靠线索猜你在哪里。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "游戏/趣味",
+    "tags": [
+      "地理",
+      "探索",
+      "地图"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "cool-math-games",
+    "name": "Cool Math Games",
+    "url": "https://www.coolmathgames.com/",
+    "description": "号称「不是游戏网站」的数学和逻辑小游戏合集。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "游戏/趣味",
+    "tags": [
+      "数学",
+      "逻辑",
+      "游戏"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "toy-theater",
+    "name": "Toy Theater",
+    "url": "https://toytheater.com/",
+    "description": "简单的教育小游戏集合，画风可爱，打开即玩。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "游戏/趣味",
+    "tags": [
+      "小游戏",
+      "教育",
+      "休闲"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "switch-zoo",
+    "name": "Switch Zoo",
+    "url": "https://switchzoo.com/",
+    "description": "把不同动物的身体部位组合起来，创造新物种并听它的叫声。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "游戏/趣味",
+    "tags": [
+      "动物",
+      "创意",
+      "组合"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "play-2048",
+    "name": "2048",
+    "url": "https://play2048.co/",
+    "description": "经典的数字合成滑动游戏，锻炼简单策略。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "游戏/趣味",
+    "tags": [
+      "数字",
+      "益智",
+      "休闲"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "little-alchemy",
+    "name": "Little Alchemy",
+    "url": "https://littlealchemy.com/",
+    "description": "从四大元素开始，组合出超过五百种物品，发现隐藏配方。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "游戏/趣味",
+    "tags": [
+      "合成",
+      "探索",
+      "元素"
+    ],
+    "contentMode": "light",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "baby-bus",
+    "name": "宝宝巴士",
+    "url": "https://www.babybus.com/",
+    "description": "面向学龄前儿童的儿歌、动画和启蒙小游戏。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "游戏/趣味",
+    "tags": [
+      "儿歌",
+      "启蒙",
+      "幼儿"
+    ],
+    "contentMode": "light",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "shanghai-natural-history-museum",
+    "name": "上海自然博物馆",
+    "url": "https://www.snmh.org.cn/",
+    "description": "上海自博的线上展厅和科普资源，了解生命演化。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "科学/科普",
+    "tags": [
+      "博物馆",
+      "自然",
+      "国内"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  },
+  {
+    "id": "kepu-china",
+    "name": "科普中国",
+    "url": "https://www.kepuchina.cn/",
+    "description": "中国科协主办的科普平台，内容权威、覆盖广泛。",
+    "image": "/images/placeholders/toy-default.svg",
+    "category": "科学/科普",
+    "tags": [
+      "科普",
+      "权威",
+      "国内"
+    ],
+    "contentMode": "useful",
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
+    "childFriendly": true,
+    "safeLevel": 5,
+    "tested": false
+  }
+]

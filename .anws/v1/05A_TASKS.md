@@ -46,7 +46,7 @@ graph TD
 
 ### Phase 1: Foundation
 
-- [ ] **T1.1.1** [基础]: 初始化 React + Vite + TypeScript + Tailwind 工程
+- [x] **T1.1.1** [基础]: 初始化 React + Vite + TypeScript + Tailwind 工程
   - **描述**: 创建可运行的前端工程骨架、基础测试工具和脚本入口。
   - **输入**: `02_ARCHITECTURE_OVERVIEW.md §5`, `03_ADR/ADR_001_TECH_STACK.md §决策`
   - **输出**: `package.json`, `src/main.tsx`, `src/App.tsx`, `tailwind.config.*`, `vitest.config.*`, `playwright.config.*`, `src/styles/globals.css`
