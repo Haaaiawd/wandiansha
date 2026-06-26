@@ -10,7 +10,6 @@ import {
   type ContentMode,
 } from '../../src/utils/recommend';
 import sites from '../../src/data/sites.json';
-import type { Site } from '../../src/data/siteTypes';
 
 describe('recommend contract tests', () => {
   it('recommendSites accepts Site[] and FilterState and returns Site[]', () => {

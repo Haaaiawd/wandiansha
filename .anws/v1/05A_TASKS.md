@@ -255,7 +255,7 @@ graph TD
   - **依赖**: T3.1.1
   - **优先级**: P0
 
-- [ ] **T2.1.2** [REQ-002, REQ-004, REQ-005, REQ-007]: 补齐推荐与数据契约测试
+- [x] **T2.1.2** [REQ-002, REQ-004, REQ-005, REQ-007]: 补齐推荐与数据契约测试
   - **描述**: 为推荐公开函数和 `sites.json` 数据契约补齐表驱动测试。
   - **输入**: `ADR_001_TECH_STACK.md §验证策略`, `T2.1.1` 推荐函数, `T3.1.1` 数据契约
   - **输出**: `tests/unit/recommend.test.ts`, `tests/api/recommend.contract.test.ts`, `tests/api/sites-schema.contract.test.ts`
