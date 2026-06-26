@@ -236,7 +236,7 @@ graph TD
 
 ### Phase 1: Core
 
-- [ ] **T2.1.1** [REQ-002, REQ-004, REQ-005, REQ-007]: 实现推荐、筛选与随机排序纯函数
+- [x] **T2.1.1** [REQ-002, REQ-004, REQ-005, REQ-007]: 实现推荐、筛选与随机排序纯函数
   - **描述**: 实现安全过滤、网络环境排序、内容倾向排序和随机打乱。
   - **输入**: `ADR_002_RECOMMENDATION_AND_SAFETY.md §决策`, `04_SYSTEM_DESIGN/recommendation-engine.md §2-4`, `T3.1.1` 产出的 `Site` 类型与样例数据
   - **输出**: `src/utils/recommend.ts`, `src/utils/filters.ts`, `src/utils/shuffle.ts`, 推荐公开函数签名
