@@ -86,11 +86,13 @@
 - **待办任务数**: 14
 - **最近一次更新**: `2026-06-26`
 
-### Wave 3 — S2 Playable UI 前半（进行中）
+### Wave 3 — S2 Playable UI 前半（已完成）
 
 T1.2.1, T1.2.2, T1.2.3, T1.2.4
 
-- 首页、筛选开关、卡片、横向滑动、空状态与外部跳转。
+- 首页、筛选开关、卡片、横向滑动、空状态、外部跳转已实现。
+- 波末 code-reviewer: `.anws/v1/wave-reviews/wave-3-review.md`（最高残留 Medium：组件测试待 T1.2.5 补齐）。
+- §3.7 E2E: N/A。
 
 ---
 
@@ -161,7 +163,8 @@ public/images/             (待创建网站示意图与占位图)
 - `/challenge` 已完成；CH-01 到 CH-08 已由 `/change` 修复。
 - `/forge` Wave 1 已完成：T1.1.1、T3.1.1、T4.1.1 已提交，code-reviewer 已落盘，最高残留 Medium 待 T3.2.1/T1.3.1 闭合。
 - `/forge` Wave 2 已完成：T2.1.1、T2.1.2、INT-S1 已提交，S1 Data Core 关门。
-- 下一步：Wave 3 实现 S2 Playable UI T1.2.1 / T1.2.2 / T1.2.3 / T1.2.4 / T1.2.5 / INT-S2。
+- `/forge` Wave 3 已完成：T1.2.1、T1.2.2、T1.2.3、T1.2.4 已提交，S2 Playable UI 前半完成，最高残留 Medium 待 T1.2.5 补齐。
+- 下一步：Wave 4 实现 T1.2.5 组件测试与 INT-S2 集成验证。
 
 <!-- AUTO:END -->
 
