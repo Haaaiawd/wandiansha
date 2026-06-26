@@ -17,7 +17,7 @@ S2 所有任务已完成：T1.2.1、T1.2.2、T1.2.3、T1.2.4、T1.2.5。
 | 组件/单元/API 测试 | `pnpm run test` | 通过 | `logs/test.log` |
 | 首页可渲染 | `tests/components/Home.test.tsx` | 通过 | `logs/test.log` |
 | 抽卡流程可渲染 | `tests/components/RandomButton.test.tsx` | 通过 | `logs/test.log` |
-| 整卡弹窗可渲染 | `tests/components/CardCarousel.test.tsx` | 通过 | `logs/test.log` |
+| 整卡横向卡片页可渲染 | `tests/components/CardCarousel.test.tsx` | 通过 | `logs/test.log` |
 
 ## 测试统计
 
@@ -28,7 +28,7 @@ S2 所有任务已完成：T1.2.1、T1.2.2、T1.2.3、T1.2.4、T1.2.5。
   - `tests/unit/recommend.test.ts` — 推荐引擎纯函数
   - `tests/components/Home.test.tsx` — 首页、筛选、空状态、错误边界
   - `tests/components/SiteCard.test.tsx` — 卡片展示与交互
-  - `tests/components/CardCarousel.test.tsx` — 轮播与整卡弹窗
+  - `tests/components/CardCarousel.test.tsx` — 横向卡片页与整卡跳转
   - `tests/components/RandomButton.test.tsx` — 抽卡按钮与状态
   - `tests/components/FilterSwitch.test.tsx` — 筛选切换
   - `tests/components/EmptyState.test.tsx` — 空结果提示
@@ -38,7 +38,7 @@ S2 所有任务已完成：T1.2.1、T1.2.2、T1.2.3、T1.2.4、T1.2.5。
 | 功能 | 测试/组件 | 状态 |
 |------|----------|------|
 | 首页随机展示 | Home + SiteCard + recommend | 通过 |
-| 标签筛选 | FilterSwitch + Home | 通过 |
+| 双态开关筛选 | FilterSwitch + Home | 通过 |
 | 随机抽卡 | RandomButton + recommend | 通过 |
 | 整卡查看 | CardCarousel + 整卡链接 | 通过 |
 | 空状态 | EmptyState | 通过 |
