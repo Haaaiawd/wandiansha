@@ -1,0 +1,139 @@
+{
+  "glossary": {
+    "玩点啥.ai": "面向线下 AI 体验活动的网页玩具随机推荐器。",
+    "网页玩具": "免登录、免下载、浏览器可直接体验的轻量互动网站。",
+    "抽卡": "用户点击主按钮后获得一组随机排序的网站卡片流。",
+    "网站卡片": "展示网站名称、简短说明、示意图片和少量安全标记的可点击推荐单元。",
+    "横向滑动页": "用户从左到右浏览推荐卡片的主体验页面。",
+    "网络环境开关": "在国内优先与全部网站之间切换推荐范围的双态筛选。",
+    "内容倾向开关": "在轻松好玩与有点收获之间切换排序倾向的双态筛选。",
+    "安全过滤": "默认只展示 safeLevel >= 4 且 childFriendly = true 的网站。",
+    "网站库": "由本地 sites.json 保存的人工收录网站数据集合。"
+  },
+  "entities": [
+    {
+      "name": "Visitor",
+      "type": "角色",
+      "necessity": "必须",
+      "description": "线下活动现场的学生、家长、教育工作者或路人。"
+    },
+    {
+      "name": "WebsiteToy",
+      "type": "聚合根",
+      "necessity": "必须",
+      "description": "一个可被推荐的网站条目，包含访问链接、卡片展示信息与安全字段。"
+    },
+    {
+      "name": "SiteCard",
+      "type": "实体",
+      "necessity": "必须",
+      "description": "WebsiteToy 在界面中的极简展示形式，整卡可点击跳转。"
+    },
+    {
+      "name": "FilterState",
+      "type": "实体",
+      "necessity": "必须",
+      "description": "由网络环境与内容倾向两个开关构成的当前推荐条件。"
+    },
+    {
+      "name": "RecommendationBatch",
+      "type": "实体",
+      "necessity": "必须",
+      "description": "基于安全过滤、筛选与随机排序生成的一组卡片序列。"
+    },
+    {
+      "name": "ImageAsset",
+      "type": "实体",
+      "necessity": "必须",
+      "description": "网站截图、logo 或统一风格占位图，用于降低用户判断成本。"
+    }
+  ],
+  "flows": [
+    {
+      "from": "Visitor",
+      "action": "点击抽卡",
+      "to": "RecommendationEngine",
+      "data": "当前 FilterState",
+      "trigger": "首页主按钮点击",
+      "mode": "本地同步计算"
+    },
+    {
+      "from": "RecommendationEngine",
+      "action": "过滤并排序",
+      "to": "WebsiteToy Collection",
+      "data": "safeLevel、childFriendly、domesticPriority、mayNeedGlobalNetwork、contentMode",
+      "trigger": "抽卡或筛选变化",
+      "mode": "安全过滤优先，筛选排序其次，结果随机化"
+    },
+    {
+      "from": "CardCarousel",
+      "action": "展示",
+      "to": "Visitor",
+      "data": "RecommendationBatch 中的网站卡片",
+      "trigger": "抽卡结果生成",
+      "mode": "横向滑动"
+    },
+    {
+      "from": "Visitor",
+      "action": "滑动浏览",
+      "to": "CardCarousel",
+      "data": "当前位置与剩余卡片",
+      "trigger": "触屏滑动或鼠标滚动",
+      "mode": "顺滑惯性滚动"
+    },
+    {
+      "from": "Visitor",
+      "action": "打开网站",
+      "to": "ExternalWebsite",
+      "data": "WebsiteToy.url",
+      "trigger": "整张 SiteCard 点击",
+      "mode": "新页面打开"
+    },
+    {
+      "from": "ContentCurator",
+      "action": "维护网站库",
+      "to": "sites.json",
+      "data": "网站字段、安全审核字段、图片路径",
+      "trigger": "人工收录或更新",
+      "mode": "本地 JSON 编辑"
+    }
+  ],
+  "missing_components": [
+    {
+      "component": "图片资产策略",
+      "category": "内容运营",
+      "priority": "高",
+      "reason": "每张卡片必须有图片，但首版可能没有真实截图，需要统一占位或截图规范。"
+    },
+    {
+      "component": "安全审核清单",
+      "category": "内容安全",
+      "priority": "高",
+      "reason": "目标用户包含儿童与家长，网站库必须避免成人、惊吓、广告诱导和陌生人互动。"
+    },
+    {
+      "component": "外部网站可用性标记",
+      "category": "可靠性",
+      "priority": "中",
+      "reason": "线下现场网络不稳定，可能需要外网的网站必须显式提示。"
+    },
+    {
+      "component": "空结果提示",
+      "category": "体验兜底",
+      "priority": "中",
+      "reason": "筛选组合可能导致卡片全部浏览完，需要轻提示避免用户误以为页面坏了。"
+    },
+    {
+      "component": "后续扩展入口",
+      "category": "演进边界",
+      "priority": "低",
+      "reason": "首版不做后台、登录、实时搜索和向量库，但网站库会增长到 80 个左右。"
+    }
+  ],
+  "clarifications": [
+    {
+      "question": "这次 /genesis 的 v1 范围应该如何定位？",
+      "answer": "文档先行：先完成 .anws/v1 的 PRD、架构、ADR；之后用 /blueprint 和 /forge 实现 Demo。"
+    }
+  ]
+}
