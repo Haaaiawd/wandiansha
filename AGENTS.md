@@ -86,13 +86,11 @@
 - **待办任务数**: 14
 - **最近一次更新**: `2026-06-26`
 
-### Wave 1 — Data Core 骨架与数据资产（已完成）
+### Wave 2 — S1 Data Core 关门（进行中）
 
-T1.1.1, T3.1.1, T4.1.1
+T2.1.1, T2.1.2, INT-S1
 
-- 工程骨架、31 条网站数据、schema 校验、占位图与资产审计已落地。
-- 波末 code-reviewer: `.anws/v1/wave-reviews/wave-1-review.md`（最高残留 Medium：tested=false 与占位图待后续波次闭合）。
-- §3.7 E2E: N/A。
+- 实现推荐纯函数、补齐表驱动测试、执行 S1 冒烟关门。
 
 ---
 
