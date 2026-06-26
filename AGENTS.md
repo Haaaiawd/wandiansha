@@ -163,7 +163,8 @@ public/images/             (待创建网站示意图与占位图)
 - `/forge` Wave 1 已完成：T1.1.1、T3.1.1、T4.1.1 已提交，code-reviewer 已落盘，最高残留 Medium 待 T3.2.1/T1.3.1 闭合。
 - `/forge` Wave 2 已完成：T2.1.1、T2.1.2、INT-S1 已提交，S1 Data Core 关门。
 - `/forge` Wave 4 已完成：T1.2.5、INT-S2 已提交，code-reviewer 已落盘，结论 Pass，最高残留 Low 已修复，S2 关门。
-- 下一步：Wave 5 实现 S3 Event Ready（T1.3.1、T3.2.1、T1.3.2、T1.3.3、INT-S3），可调用 taste skill 提升视觉质感。
+- `/forge` Wave 5 进行中：T1.3.1、T3.2.1、T1.3.2、T1.3.3 已提交；INT-S3 待验证。
+- 后续优化项：用 `agent-browser` 为 31 个收录网站采集真实/美观示意截图，替换占位图（不影响 MVP 关门）。
 
 <!-- AUTO:END -->
 
