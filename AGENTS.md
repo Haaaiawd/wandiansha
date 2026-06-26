@@ -86,13 +86,11 @@
 - **待办任务数**: 14
 - **最近一次更新**: `2026-06-26`
 
-### Wave 2 — S1 Data Core 关门（已完成）
+### Wave 3 — S2 Playable UI 前半（进行中）
 
-T2.1.1, T2.1.2, INT-S1
+T1.2.1, T1.2.2, T1.2.3, T1.2.4
 
-- 推荐纯函数、表驱动测试、S1 冒烟全部通过；S1 关门。
-- 波末 code-reviewer: `.anws/v1/wave-reviews/wave-2-review.md`（最高残留 Medium：App.tsx 占位待 S2 T1.2.1 闭合）。
-- §3.7 E2E: N/A。
+- 首页、筛选开关、卡片、横向滑动、空状态与外部跳转。
 
 ---
 

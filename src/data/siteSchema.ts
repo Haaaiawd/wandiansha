@@ -1,4 +1,4 @@
-import type { Site, ContentMode } from './siteTypes';
+import type { Site } from './siteTypes';
 import { CONTENT_MODES } from './siteTypes';
 
 export const MIN_SAFE_LEVEL = 4;
