@@ -329,7 +329,7 @@ graph TD
 
 ### Phase 1: Foundation
 
-- [ ] **T4.1.1** [REQ-003, REQ-007, REQ-008]: 建立图片资产与占位图策略
+- [x] **T4.1.1** [REQ-003, REQ-007, REQ-008]: 建立图片资产与占位图策略
   - **描述**: 创建统一占位图、首批网站图片路径和资产覆盖记录，保证卡片不会纯文字展示。
   - **输入**: `01_PRD.md §4 US-003`, `02_ARCHITECTURE_OVERVIEW.md §2 asset-library`
   - **输出**: `public/images/placeholders/toy-default.svg`, `public/images/sites/*`, `reports/assets-audit.md`

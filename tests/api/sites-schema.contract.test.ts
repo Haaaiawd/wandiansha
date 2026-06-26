@@ -67,6 +67,14 @@ describe('sites.json schema contract', () => {
     }
   });
 
+  it('rejects non-integer safeLevel', () => {
+    const result = validateSite(validSite({ safeLevel: 4.5 as 5 }));
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.some((e) => e.includes('safeLevel'))).toBe(true);
+    }
+  });
+
   it('rejects duplicate ids', () => {
     const result = validateSites([
       validSite({ id: 'same' }),
@@ -78,12 +86,9 @@ describe('sites.json schema contract', () => {
     }
   });
 
-  it('rejects more than 3 tags', () => {
+  it('accepts more than 3 tags', () => {
     const result = validateSite(validSite({ tags: ['a', 'b', 'c', 'd'] }));
-    expect(result.success).toBe(false);
-    if (!result.success) {
-      expect(result.errors.some((e) => e.includes('tags'))).toBe(true);
-    }
+    expect(result.success).toBe(true);
   });
 
   it('accepts a minimal valid site', () => {

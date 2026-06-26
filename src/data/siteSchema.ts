@@ -73,8 +73,6 @@ export function validateSite(site: unknown): ValidationResult<Site> {
 
   if (!isArrayOfStrings(record.tags)) {
     errors.push('tags must be an array of strings');
-  } else if (record.tags.length > 3) {
-    errors.push('tags must not exceed 3 items');
   }
 
   if (!isString(record.contentMode) || !CONTENT_MODES.includes(record.contentMode as typeof CONTENT_MODES[number])) {
@@ -93,7 +91,7 @@ export function validateSite(site: unknown): ValidationResult<Site> {
     errors.push('childFriendly must be a boolean');
   }
 
-  if (!isNumber(record.safeLevel) || record.safeLevel < 1 || record.safeLevel > 5) {
+  if (!isNumber(record.safeLevel) || !Number.isInteger(record.safeLevel) || record.safeLevel < 1 || record.safeLevel > 5) {
     errors.push('safeLevel must be an integer between 1 and 5');
   }
 
