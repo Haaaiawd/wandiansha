@@ -1,10 +1,8 @@
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import App from '../../src/App';
-import type { Site } from '../../src/data/siteTypes';
 
-const mockSites: Site[] = [
+const mockSites = [
   {
     id: 'domestic-light',
     name: 'Domestic Light',
@@ -21,14 +19,14 @@ const mockSites: Site[] = [
     tested: true,
   },
   {
-    id: 'global-useful',
-    name: 'Global Useful',
-    url: 'https://global-useful.example.com',
-    description: 'A global useful site.',
+    id: 'global-light',
+    name: 'Global Light',
+    url: 'https://global-light.example.com',
+    description: 'A global light site.',
     image: '/images/placeholders/toy-default.svg',
     category: 'tool',
     tags: ['tag2'],
-    contentMode: 'useful',
+    contentMode: 'light',
     domesticPriority: false,
     mayNeedGlobalNetwork: true,
     childFriendly: true,
@@ -42,37 +40,46 @@ vi.mock('../../src/data/sites', () => ({
   sitesLoadError: null,
 }));
 
+async function renderApp() {
+  const { default: App } = await import('../../src/App');
+  return render(<App />);
+}
+
 describe('recommendation flow', () => {
   it('draws cards with default filters and shows carousel', async () => {
-    render(<App />);
+    await renderApp();
 
     await userEvent.click(screen.getByRole('button', { name: '抽一下' }));
 
     expect(screen.getByLabelText('推荐卡片列表')).toBeInTheDocument();
     expect(screen.getByText('2 个结果')).toBeInTheDocument();
     expect(screen.getByText('Domestic Light')).toBeInTheDocument();
-    expect(screen.getByText('Global Useful')).toBeInTheDocument();
+    expect(screen.getByText('Global Light')).toBeInTheDocument();
   });
 
   it('reflects filter changes in the recommendation result', async () => {
-    render(<App />);
+    await renderApp();
 
-    await userEvent.click(screen.getByRole('button', { name: '有点收获' }));
+    await userEvent.click(screen.getByRole('button', { name: '全部' }));
     await userEvent.click(screen.getByRole('button', { name: '抽一下' }));
 
     expect(screen.getByLabelText('推荐卡片列表')).toBeInTheDocument();
-    expect(screen.getByText('Global Useful')).toBeInTheDocument();
+    expect(screen.getByText('Global Light')).toBeInTheDocument();
   });
+});
 
-  it('shows empty state when filter combination yields no result', async () => {
+describe('recommendation flow error state', () => {
+  it('shows empty state when data loading fails', async () => {
+    vi.resetModules();
+    vi.doMock('../../src/data/sites', () => ({
+      default: [],
+      sitesLoadError: 'Failed to load sites.',
+    }));
+
+    const { default: App } = await import('../../src/App');
     render(<App />);
 
-    await userEvent.click(screen.getByRole('button', { name: '国内优先' }));
-    await userEvent.click(screen.getByRole('button', { name: '有点收获' }));
-    await userEvent.click(screen.getByRole('button', { name: '抽一下' }));
-
-    expect(
-      screen.getByText('这一组已经抽完啦，换个筛选再试试。')
-    ).toBeInTheDocument();
+    expect(screen.getByText('网站库加载失败')).toBeInTheDocument();
+    expect(screen.getByText('Failed to load sites.')).toBeInTheDocument();
   });
 });

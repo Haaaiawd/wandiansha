@@ -372,7 +372,7 @@ graph TD
   - **依赖**: T2.1.2
   - **优先级**: P0
 
-- [ ] **INT-S2** [MILESTONE]: S2 集成验证 — Playable UI
+- [x] **INT-S2** [MILESTONE]: S2 集成验证 — Playable UI
   - **描述**: 验证 S2 退出标准：首页抽卡、筛选、滑动、跳转和空状态可演示。
   - **输入**: T1.2.1 至 T1.2.5 的产出
   - **输出**: `reports/INT-S2.md`

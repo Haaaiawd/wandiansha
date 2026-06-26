@@ -21,11 +21,12 @@ S2 所有任务已完成：T1.2.1、T1.2.2、T1.2.3、T1.2.4、T1.2.5。
 
 ## 测试统计
 
-- 测试文件：10 passed
-- 测试用例：64 passed
+- 测试文件：12 passed
+- 测试用例：67 passed
 - 覆盖范围：
   - `tests/api/*.test.ts` — 数据契约与 schema
   - `tests/unit/recommend.test.ts` — 推荐引擎纯函数
+  - `tests/integration/recommendation-flow.test.tsx` — App 级推荐流与数据加载失败
   - `tests/components/Home.test.tsx` — 首页、筛选、空状态、错误边界
   - `tests/components/SiteCard.test.tsx` — 卡片展示与交互
   - `tests/components/CardCarousel.test.tsx` — 横向卡片页与整卡跳转
