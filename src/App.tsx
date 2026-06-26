@@ -1,6 +1,9 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
+import { CardCarousel } from './components/CardCarousel.tsx';
 import { Home } from './pages/Home.tsx';
-import type { FilterState } from './utils/recommend.ts';
+import { recommendSites, type FilterState } from './utils/recommend.ts';
+import sites from './data/sites.ts';
+import { openExternal } from './utils/openExternal.ts';
 
 const DEFAULT_FILTERS: FilterState = {
   networkMode: 'domestic',
@@ -11,15 +14,29 @@ function App() {
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [hasDrawn, setHasDrawn] = useState(false);
 
+  const recommendations = useMemo(() => {
+    return recommendSites(sites, filters);
+  }, [filters]);
+
   const handleDraw = () => {
     setHasDrawn(true);
   };
 
+  const handleBack = () => {
+    setHasDrawn(false);
+  };
+
+  const handleSiteClick = (site: { url: string }) => {
+    openExternal(site.url);
+  };
+
   if (hasDrawn) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-indigo-50 to-purple-50 p-6">
-        <p className="text-lg text-indigo-700">卡片流正在赶来…（下一任务实现）</p>
-      </div>
+      <CardCarousel
+        sites={recommendations}
+        onSiteClick={handleSiteClick}
+        onBack={handleBack}
+      />
     );
   }
 
