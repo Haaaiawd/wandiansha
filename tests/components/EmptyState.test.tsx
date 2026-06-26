@@ -14,9 +14,12 @@ describe('EmptyState', () => {
     expect(screen.getByRole('button', { name: 'Back' })).toBeInTheDocument();
   });
 
-  it('hides decorative emoji from accessibility tree', () => {
+  it('renders decorative icon hidden from accessibility tree', () => {
     render(<EmptyState title="Empty" />);
-    const emoji = screen.getByText('🎴');
-    expect(emoji).toHaveAttribute('aria-hidden', 'true');
+    const icon = screen.getAllByRole('img', { hidden: true }).find(
+      (el) => el.tagName.toLowerCase() === 'svg'
+    );
+    expect(icon).toBeInTheDocument();
+    expect(icon).toHaveAttribute('aria-hidden', 'true');
   });
 });

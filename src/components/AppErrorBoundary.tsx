@@ -23,8 +23,8 @@ export class AppErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundar
     if (this.state.hasError) {
       return (
         <EmptyState
-          title="网站库加载失败"
-          description="请检查网络连接或刷新页面再试。"
+          title="页面出了点小问题"
+          description="别担心，刷新一下通常就能解决。"
         />
       );
     }

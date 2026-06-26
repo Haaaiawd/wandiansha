@@ -19,7 +19,8 @@ describe('Home', () => {
       />
     );
 
-    expect(screen.getByText('玩点啥.ai')).toBeInTheDocument();
+    const heading = screen.getByRole('heading', { level: 1 });
+    expect(heading.textContent).toMatch(/玩点啥\.?ai/i);
     expect(screen.getByText('随机发现一个好玩的网站')).toBeInTheDocument();
     expect(screen.getByRole('button', { name: '抽一下' })).toBeInTheDocument();
     expect(screen.getByRole('group', { name: '网络环境' })).toBeInTheDocument();

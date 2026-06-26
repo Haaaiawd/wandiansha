@@ -50,7 +50,7 @@ function AppContent() {
             <button
               type="button"
               onClick={handleBack}
-              className="rounded-full bg-indigo-600 px-5 py-2 text-sm font-medium text-white hover:bg-indigo-700"
+              className="rounded-full bg-teal-600 px-6 py-2.5 text-sm font-semibold text-white shadow-md transition-all hover:bg-teal-700 hover:shadow-lg active:scale-95"
             >
               返回首页
             </button>

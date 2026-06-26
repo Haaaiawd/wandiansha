@@ -21,16 +21,16 @@ export function FilterSwitch<T extends string>({
     <div
       role="group"
       aria-label={ariaLabel}
-      className="inline-flex items-center rounded-full bg-white/60 p-1 shadow-sm backdrop-blur-sm"
+      className="glass inline-flex items-center rounded-full p-1 shadow-sm"
     >
       <button
         type="button"
         aria-pressed={isLeft}
         onClick={() => onChange(left)}
-        className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${
+        className={`rounded-full px-5 py-2.5 text-sm font-semibold transition-all duration-200 ${
           isLeft
-            ? 'bg-indigo-600 text-white shadow'
-            : 'text-indigo-700 hover:bg-indigo-50'
+            ? 'bg-teal-600 text-white shadow-md'
+            : 'text-teal-700 hover:bg-teal-50/60'
         }`}
       >
         {leftLabel}
@@ -39,10 +39,10 @@ export function FilterSwitch<T extends string>({
         type="button"
         aria-pressed={!isLeft}
         onClick={() => onChange(right)}
-        className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${
+        className={`rounded-full px-5 py-2.5 text-sm font-semibold transition-all duration-200 ${
           !isLeft
-            ? 'bg-indigo-600 text-white shadow'
-            : 'text-indigo-700 hover:bg-indigo-50'
+            ? 'bg-teal-600 text-white shadow-md'
+            : 'text-teal-700 hover:bg-teal-50/60'
         }`}
       >
         {rightLabel}
