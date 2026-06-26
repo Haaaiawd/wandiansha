@@ -33,6 +33,11 @@ describe('filterSafeSites', () => {
     expect(filterSafeSites([safe])).toHaveLength(1);
   });
 
+  it('keeps sites with safeLevel exactly 4', () => {
+    const borderline = site({ safeLevel: 4 });
+    expect(filterSafeSites([borderline])).toHaveLength(1);
+  });
+
   it('drops sites with safeLevel < 4', () => {
     const unsafe = site({ safeLevel: 3 });
     expect(filterSafeSites([unsafe])).toHaveLength(0);
@@ -60,6 +65,15 @@ describe('sortByNetworkMode', () => {
     expect(sorted[0].id).toBe('a');
     expect(sorted[1].id).toBe('b');
   });
+
+  it('retains all safe sites when domestic results are insufficient', () => {
+    const globalA = site({ id: 'global-a', mayNeedGlobalNetwork: true });
+    const globalB = site({ id: 'global-b', mayNeedGlobalNetwork: true });
+    const sorted = sortByNetworkMode([globalA, globalB], 'domestic');
+    expect(sorted).toHaveLength(2);
+    expect(sorted.map((s) => s.id)).toContain('global-a');
+    expect(sorted.map((s) => s.id)).toContain('global-b');
+  });
 });
 
 describe('sortByContentMode', () => {
@@ -76,6 +90,12 @@ describe('shuffleSites', () => {
   it('returns same length', () => {
     const input = [site({ id: 'a' }), site({ id: 'b' }), site({ id: 'c' })];
     expect(shuffleSites(input)).toHaveLength(input.length);
+  });
+
+  it('returns a permutation of input without seed', () => {
+    const input = [site({ id: 'a' }), site({ id: 'b' }), site({ id: 'c' }), site({ id: 'd' })];
+    const result = shuffleSites(input);
+    expect(result.map((s) => s.id).sort()).toEqual(['a', 'b', 'c', 'd']);
   });
 
   it('returns deterministic order with same seed', () => {
@@ -98,21 +118,21 @@ describe('recommendSites', () => {
   it('prioritizes domestic-friendly sites in domestic mode', () => {
     const global = site({ id: 'global', mayNeedGlobalNetwork: true, contentMode: 'useful' });
     const domestic = site({ id: 'domestic', domesticPriority: true, contentMode: 'light' });
-    const result = recommendSites([global, domestic], { networkMode: 'domestic', contentMode: 'light' }, 42);
+    const result = recommendSites([global, domestic], { networkMode: 'domestic', contentMode: 'light' });
     expect(result[0].id).toBe('domestic');
   });
 
   it('prioritizes light content in light mode', () => {
     const useful = site({ id: 'useful', contentMode: 'useful', mayNeedGlobalNetwork: true });
     const light = site({ id: 'light', contentMode: 'light', mayNeedGlobalNetwork: true });
-    const result = recommendSites([useful, light], { networkMode: 'all', contentMode: 'light' }, 42);
+    const result = recommendSites([useful, light], { networkMode: 'all', contentMode: 'light' });
     expect(result[0].id).toBe('light');
   });
 
   it('prioritizes useful content in useful mode', () => {
     const useful = site({ id: 'useful', contentMode: 'useful' });
     const light = site({ id: 'light', contentMode: 'light' });
-    const result = recommendSites([light, useful], { networkMode: 'all', contentMode: 'useful' }, 42);
+    const result = recommendSites([light, useful], { networkMode: 'all', contentMode: 'useful' });
     expect(result[0].id).toBe('useful');
   });
 
@@ -127,10 +147,13 @@ describe('recommendSites', () => {
     expect(result).toEqual([]);
   });
 
-  it('is deterministic with same seed', () => {
-    const input = [site({ id: 'a' }), site({ id: 'b' }), site({ id: 'c' })];
-    const first = recommendSites(input, { networkMode: 'all', contentMode: 'light' }, 99);
-    const second = recommendSites(input, { networkMode: 'all', contentMode: 'light' }, 99);
-    expect(first.map((s) => s.id)).toEqual(second.map((s) => s.id));
+  it('returns a permutation of safe sorted sites', () => {
+    const input = [
+      site({ id: 'a', safeLevel: 4 }),
+      site({ id: 'b', safeLevel: 3 }),
+      site({ id: 'c', contentMode: 'useful' }),
+    ];
+    const result = recommendSites(input, { networkMode: 'all', contentMode: 'light' });
+    expect(result.map((s) => s.id).sort()).toEqual(['a', 'c']);
   });
 });

@@ -1,7 +1,8 @@
-import type { Site } from '../data/siteTypes';
+import type { Site, ContentMode } from '../data/siteTypes';
+import { MIN_SAFE_LEVEL } from '../data/siteSchema';
 
 export function filterSafeSites(sites: Site[]): Site[] {
-  return sites.filter((site) => site.safeLevel >= 4 && site.childFriendly);
+  return sites.filter((site) => site.safeLevel >= MIN_SAFE_LEVEL && site.childFriendly);
 }
 
 export type NetworkMode = 'domestic' | 'all';
@@ -21,8 +22,6 @@ export function sortByNetworkMode(sites: Site[], mode: NetworkMode): Site[] {
     return bDomestic - aDomestic;
   });
 }
-
-export type ContentMode = Site['contentMode'];
 
 export function sortByContentMode(sites: Site[], mode: ContentMode): Site[] {
   return [...sites].sort((a, b) => {

@@ -1,4 +1,6 @@
-export type ContentMode = 'light' | 'useful';
+export const CONTENT_MODES = ['light', 'useful'] as const;
+
+export type ContentMode = typeof CONTENT_MODES[number];
 
 export type Site = {
   id: string;

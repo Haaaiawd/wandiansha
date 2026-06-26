@@ -355,7 +355,7 @@ graph TD
 
 ## 集成验证任务
 
-- [ ] **INT-S1** [MILESTONE]: S1 集成验证 — Data Core
+- [x] **INT-S1** [MILESTONE]: S1 集成验证 — Data Core
   - **描述**: 验证 S1 退出标准：工程骨架、网站库、图片资产和推荐逻辑就绪。
   - **输入**: T1.1.1, T2.1.2, T3.1.1, T4.1.1 的产出
   - **输出**: `reports/INT-S1.md`

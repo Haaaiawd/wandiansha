@@ -1,8 +1,9 @@
-import type { Site } from '../data/siteTypes';
-import { filterSafeSites, sortByNetworkMode, sortByContentMode, type NetworkMode, type ContentMode } from './filters';
+import type { Site, ContentMode } from '../data/siteTypes';
+import { filterSafeSites, sortByNetworkMode, sortByContentMode, type NetworkMode } from './filters';
 import { shuffleSites } from './shuffle';
 
-export type { NetworkMode, ContentMode };
+export type { NetworkMode };
+export type { ContentMode };
 
 export type FilterState = {
   networkMode: NetworkMode;
@@ -13,13 +14,12 @@ export type RecommendationBatch = Site[];
 
 export function recommendSites(
   sites: Site[],
-  filters: FilterState,
-  seed?: number
+  filters: FilterState
 ): RecommendationBatch {
   const safe = filterSafeSites(sites);
   const networkSorted = sortByNetworkMode(safe, filters.networkMode);
   const contentSorted = sortByContentMode(networkSorted, filters.contentMode);
-  return shuffleSites(contentSorted, seed);
+  return shuffleSites(contentSorted);
 }
 
 export { filterSafeSites, sortByNetworkMode, sortByContentMode, shuffleSites };

@@ -55,4 +55,10 @@ describe('recommend contract tests', () => {
     const result = recommendSites(sites, filters);
     expect(result.length).toBeGreaterThan(0);
   });
+
+  it('domestic mode keeps non-domestic sites when domestic-friendly results are insufficient', () => {
+    const filters: FilterState = { networkMode: 'domestic', contentMode: 'light' };
+    const result = recommendSites(sites, filters);
+    expect(result.length).toBeGreaterThan(0);
+  });
 });
