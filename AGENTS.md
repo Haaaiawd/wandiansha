@@ -86,11 +86,13 @@
 - **待办任务数**: 14
 - **最近一次更新**: `2026-06-26`
 
-### Wave 2 — S1 Data Core 关门（进行中）
+### Wave 2 — S1 Data Core 关门（已完成）
 
 T2.1.1, T2.1.2, INT-S1
 
-- 实现推荐纯函数、补齐表驱动测试、执行 S1 冒烟关门。
+- 推荐纯函数、表驱动测试、S1 冒烟全部通过；S1 关门。
+- 波末 code-reviewer: `.anws/v1/wave-reviews/wave-2-review.md`（最高残留 Medium：App.tsx 占位待 S2 T1.2.1 闭合）。
+- §3.7 E2E: N/A。
 
 ---
 
@@ -160,7 +162,8 @@ public/images/             (待创建网站示意图与占位图)
 - `/blueprint` 已完成；`05A_TASKS.md` 与 `05B_VERIFICATION_PLAN.md` 已生成。
 - `/challenge` 已完成；CH-01 到 CH-08 已由 `/change` 修复。
 - `/forge` Wave 1 已完成：T1.1.1、T3.1.1、T4.1.1 已提交，code-reviewer 已落盘，最高残留 Medium 待 T3.2.1/T1.3.1 闭合。
-- 下一步：Wave 2 实现推荐纯函数 T2.1.1 / T2.1.2 / INT-S1。
+- `/forge` Wave 2 已完成：T2.1.1、T2.1.2、INT-S1 已提交，S1 Data Core 关门。
+- 下一步：Wave 3 实现 S2 Playable UI T1.2.1 / T1.2.2 / T1.2.3 / T1.2.4 / T1.2.5 / INT-S2。
 
 <!-- AUTO:END -->
 
