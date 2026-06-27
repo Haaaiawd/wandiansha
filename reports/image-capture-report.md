@@ -1,16 +1,18 @@
 # 网站示意图采集报告
 
-> 生成时间: 2026-06-26T13:27:48.503Z
+> 生成时间: 2026-06-27T01:40:14.181Z
 > 视口: 1200x900
-> 范围: 5/31
+> 范围: 6/68
+> 仅采集占位图: 是
 
 | 结果 | ID | 名称 | 图片路径 | 备注 |
 |------|----|------|----------|------|
-| PASS | pointer-pointer | Pointer Pointer | /images/sites/pointer-pointer.png | captured |
-| PASS | find-the-invisible-cow | Find the Invisible Cow | /images/sites/find-the-invisible-cow.png | captured |
-| PASS | cat-bounce | Cat Bounce | /images/sites/cat-bounce.png | captured |
-| PASS | koalas-to-the-max | Koalas to the Max | /images/sites/koalas-to-the-max.png | captured |
-| PASS | long-doge-challenge | Long Doge Challenge | /images/sites/long-doge-challenge.png | captured |
+| PASS | typedrummer | Typedrummer | /images/sites/typedrummer.png | captured |
+| PASS | weave-silk | Weave Silk | /images/sites/weave-silk.png | captured |
+| PASS | staggering-beauty | Staggering Beauty | /images/sites/staggering-beauty.png | captured |
+| PASS | eelslap | Eel Slap | /images/sites/eelslap.png | captured |
+| PASS | google-space | Google Space | /images/sites/google-space.png | captured |
+| PASS | worldle | Worldle | /images/sites/worldle.png | captured |
 
 ## 说明
 

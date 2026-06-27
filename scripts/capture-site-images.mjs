@@ -13,6 +13,7 @@ const REPORTS_DIR = new URL('reports/', ROOT);
 const REPORT_PATH = new URL('reports/image-capture-report.md', ROOT);
 const VIEWPORT = ['1200', '900'];
 const LIMIT = Number(process.env.CAPTURE_LIMIT ?? 0);
+const ONLY_PLACEHOLDERS = process.env.CAPTURE_ONLY_PLACEHOLDERS !== '0';
 function quote(value) {
   return `"${String(value).replaceAll('"', '\\"')}"`;
 }
@@ -65,7 +66,10 @@ async function capture(site) {
 
 async function main() {
   const sites = JSON.parse(await readFile(SITES_PATH, 'utf8'));
-  const targetSites = LIMIT > 0 ? sites.slice(0, LIMIT) : sites;
+  const candidates = ONLY_PLACEHOLDERS
+    ? sites.filter((site) => site.image.includes('/images/placeholders/'))
+    : sites;
+  const targetSites = LIMIT > 0 ? candidates.slice(0, LIMIT) : candidates;
   const results = [];
 
   await mkdir(IMAGE_DIR, { recursive: true });
@@ -92,6 +96,7 @@ async function main() {
     `> 生成时间: ${new Date().toISOString()}`,
     `> 视口: ${VIEWPORT[0]}x${VIEWPORT[1]}`,
     `> 范围: ${targetSites.length}/${sites.length}`,
+    `> 仅采集占位图: ${ONLY_PLACEHOLDERS ? '是' : '否'}`,
     '',
     '| 结果 | ID | 名称 | 图片路径 | 备注 |',
     '|------|----|------|----------|------|',

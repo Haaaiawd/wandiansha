@@ -99,7 +99,7 @@
     "name": "Paper Toilet",
     "url": "https://papertoilet.com/",
     "description": "一直拉卷纸，直到你意识到自己真的在网页上拉卷纸。荒诞得很纯粹。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/paper-toilet.png",
     "category": "互联网怪站",
     "tags": [
       "无用",
@@ -118,7 +118,7 @@
     "name": "Checkbox Race",
     "url": "https://checkboxrace.com/",
     "description": "和别人比谁点复选框更快，简单到离谱，也很适合围观。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/checkbox-race.png",
     "category": "轻量小游戏",
     "tags": [
       "点击",
@@ -137,7 +137,7 @@
     "name": "Quick, Draw!",
     "url": "https://quickdraw.withgoogle.com/",
     "description": "你画一个东西，看 AI 能不能在 20 秒内猜出来。失败时反而更好笑。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/quick-draw.png",
     "category": "AI 玩具",
     "tags": [
       "AI",
@@ -156,7 +156,7 @@
     "name": "AutoDraw",
     "url": "https://www.autodraw.com/",
     "description": "随手画几笔，AI 会猜并帮你变成干净图标。打开就能玩。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/auto-draw.png",
     "category": "AI 玩具",
     "tags": [
       "AI",
@@ -175,7 +175,7 @@
     "name": "Blob Opera",
     "url": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
     "description": "拖动四个软乎乎的角色唱歌，声音反馈立刻出现。很适合亲子一起玩。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/blob-opera.png",
     "category": "声音玩具",
     "tags": [
       "音乐",
@@ -194,7 +194,7 @@
     "name": "Chrome Music Lab",
     "url": "https://musiclab.chromeexperiments.com/",
     "description": "一组声音和节奏小实验，点一下就能看到声音怎么动起来。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/chrome-music-lab.png",
     "category": "声音玩具",
     "tags": [
       "音乐",
@@ -213,7 +213,7 @@
     "name": "Song Maker",
     "url": "https://musiclab.chromeexperiments.com/Song-Maker/",
     "description": "在格子上点音符，马上生成一小段旋律。像一盒能发声的音乐积木。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/song-maker.png",
     "category": "声音玩具",
     "tags": [
       "作曲",
@@ -232,7 +232,7 @@
     "name": "Patatap",
     "url": "https://patatap.com/",
     "description": "按键盘就会出现声音和动画，像把键盘变成小型演出机器。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/patatap.png",
     "category": "声音玩具",
     "tags": [
       "键盘",
@@ -249,9 +249,9 @@
   {
     "id": "typedrummer",
     "name": "Typedrummer",
-    "url": "https://typedrummer.com/",
+    "url": "http://typedrummer.com/",
     "description": "输入文字，它会把每个字母变成节奏。随便打一串也能听起来很怪。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/typedrummer.png",
     "category": "声音玩具",
     "tags": [
       "打字",
@@ -270,7 +270,7 @@
     "name": "Purrli",
     "url": "https://purrli.com/",
     "description": "调出一只虚拟猫的呼噜声，适合当安静又奇怪的声音玩具。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/purrli.png",
     "category": "声音玩具",
     "tags": [
       "猫",
@@ -287,9 +287,9 @@
   {
     "id": "weave-silk",
     "name": "Weave Silk",
-    "url": "https://weavesilk.com/",
+    "url": "http://weavesilk.com/",
     "description": "用鼠标画出对称的发光丝线，几秒钟就能做出很漂亮的图。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/weave-silk.png",
     "category": "视觉玩具",
     "tags": [
       "绘画",
@@ -308,7 +308,7 @@
     "name": "Neon Flames",
     "url": "https://29a.ch/sandbox/2011/neonflames/",
     "description": "在黑底上画霓虹火焰，鼠标划过就有光。适合做漂亮截图。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/neon-flames.png",
     "category": "视觉玩具",
     "tags": [
       "霓虹",
@@ -327,7 +327,7 @@
     "name": "This Is Sand",
     "url": "https://thisissand.com/",
     "description": "往屏幕里倒彩色沙子，慢慢堆出一幅图。没教程也能马上玩。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/this-is-sand.png",
     "category": "视觉玩具",
     "tags": [
       "沙子",
@@ -346,7 +346,7 @@
     "name": "Sandspiel",
     "url": "https://sandspiel.club/",
     "description": "把沙、水、火、植物放进同一个小世界，看它们自己发生反应。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/sandspiel.png",
     "category": "视觉玩具",
     "tags": [
       "沙盒",
@@ -365,7 +365,7 @@
     "name": "Fluid Simulation",
     "url": "https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
     "description": "拖动鼠标搅动彩色流体，视觉反馈非常直接。性能差的设备要谨慎。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/fluid-simulation.png",
     "category": "视觉玩具",
     "tags": [
       "流体",
@@ -384,7 +384,7 @@
     "name": "The Deep Sea",
     "url": "https://neal.fun/deep-sea/",
     "description": "一路往深海下潜，看越来越奇怪的生物出现。像滑动版探索玩具。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/deep-sea.png",
     "category": "探索实验",
     "tags": [
       "深海",
@@ -403,7 +403,7 @@
     "name": "The Size of Space",
     "url": "https://neal.fun/size-of-space/",
     "description": "横向滑动比较宇宙里各种东西的大小，视觉冲击比普通科普强很多。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/size-of-space.png",
     "category": "探索实验",
     "tags": [
       "宇宙",
@@ -422,7 +422,7 @@
     "name": "Spend Bill Gates' Money",
     "url": "https://neal.fun/spend/",
     "description": "模拟花掉一大笔钱，点几下就能感受到荒诞的数字冲击。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/spend-bill-gates-money.png",
     "category": "离谱选择",
     "tags": [
       "花钱",
@@ -441,7 +441,7 @@
     "name": "Draw Logos From Memory",
     "url": "https://neal.fun/logos-from-memory/",
     "description": "凭记忆画知名 Logo，然后看自己画得有多离谱。现场很容易产生笑点。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/draw-logos-from-memory.png",
     "category": "创意挑战",
     "tags": [
       "画画",
@@ -460,7 +460,7 @@
     "name": "Design the Next iPhone",
     "url": "https://neal.fun/design-the-next-iphone/",
     "description": "给手机乱加按钮、摄像头和奇怪功能，越设计越离谱。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/design-next-iphone.png",
     "category": "离谱选择",
     "tags": [
       "设计",
@@ -479,7 +479,7 @@
     "name": "Wonders of Street View",
     "url": "https://neal.fun/wonders-of-street-view/",
     "description": "随机看世界各地奇怪又有趣的街景，像开盲盒一样逛地球。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/wonders-of-street-view.png",
     "category": "探索实验",
     "tags": [
       "街景",
@@ -498,7 +498,7 @@
     "name": "The Password Game",
     "url": "https://neal.fun/password-game/",
     "description": "按越来越荒唐的规则设置密码，规则会一路失控。适合稍大一点的玩家。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/password-game.png",
     "category": "规则挑战",
     "tags": [
       "规则",
@@ -517,7 +517,7 @@
     "name": "Little Alchemy 2",
     "url": "https://littlealchemy2.com/",
     "description": "把两个元素拖到一起合成新东西，越玩越像在试奇怪配方。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/little-alchemy-2.png",
     "category": "轻量小游戏",
     "tags": [
       "合成",
@@ -536,7 +536,7 @@
     "name": "2048",
     "url": "https://play2048.co/",
     "description": "上下左右滑动合并数字，规则极简但很容易停不下来。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/play-2048.png",
     "category": "轻量小游戏",
     "tags": [
       "数字",
@@ -555,7 +555,7 @@
     "name": "Reaction Time Test",
     "url": "https://humanbenchmark.com/tests/reactiontime",
     "description": "等屏幕变色后立刻点击，测一下你的反应有多快。现场对比很有参与感。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/human-benchmark-reaction.png",
     "category": "轻量小游戏",
     "tags": [
       "反应",
@@ -574,7 +574,7 @@
     "name": "The Zen Zone",
     "url": "https://thezen.zone/",
     "description": "几个安静的在线解压小玩具，适合想轻轻点一点、放空一下的时候。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/the-zen-zone.png",
     "category": "解压玩具",
     "tags": [
       "放松",
@@ -591,9 +591,9 @@
   {
     "id": "staggering-beauty",
     "name": "Staggering Beauty",
-    "url": "https://staggeringbeauty.com/",
+    "url": "http://www.staggeringbeauty.com/",
     "description": "晃动鼠标让黑色小东西疯狂摇摆，反馈直接又很荒诞。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/staggering-beauty.png",
     "category": "互联网怪站",
     "tags": [
       "鼠标",
@@ -610,9 +610,9 @@
   {
     "id": "eelslap",
     "name": "Eel Slap",
-    "url": "https://eelslap.com/",
+    "url": "http://eelslap.com/",
     "description": "拖动鼠标用鳗鱼拍脸，荒唐到让人忍不住再拖一次。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/eelslap.png",
     "category": "互联网怪站",
     "tags": [
       "怪站",
@@ -631,7 +631,7 @@
     "name": "OMFGDOGS",
     "url": "https://www.omfgdogs.com/",
     "description": "一群像素狗循环奔跑，复古、吵闹、很互联网。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/omfgdogs.png",
     "category": "互联网怪站",
     "tags": [
       "像素",
@@ -650,7 +650,7 @@
     "name": "Heeeeeeeey",
     "url": "https://heeeeeeeey.com/",
     "description": "打开就只剩一个超长招呼，没用但非常适合解释怪站精神。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/heeeeeeeey.png",
     "category": "互联网怪站",
     "tags": [
       "文字",
@@ -669,7 +669,7 @@
     "name": "Hooooooo",
     "url": "https://hooooooooo.com/",
     "description": "另一个纯粹无意义的长音网站，像互联网里的回声玩具。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/hooooooooo.png",
     "category": "互联网怪站",
     "tags": [
       "文字",
@@ -688,7 +688,7 @@
     "name": "Can't Not Tweet This",
     "url": "https://cant-not-tweet-this.com/",
     "description": "一个试图让你点按钮的反常识页面，适合讲网页恶作剧。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/cant-not-tweet-this.png",
     "category": "互联网怪站",
     "tags": [
       "按钮",
@@ -707,7 +707,7 @@
     "name": "rrrgggbbb",
     "url": "https://rrrgggbbb.com/",
     "description": "屏幕只剩颜色变化，简单但很像浏览器里的色彩乐器。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/rrrgggbbb.png",
     "category": "视觉玩具",
     "tags": [
       "颜色",
@@ -726,7 +726,7 @@
     "name": "Binary Piano",
     "url": "https://binarypiano.com/",
     "description": "用键盘敲出电子音和节奏，像一个极简声音小盒子。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/binary-piano.png",
     "category": "声音玩具",
     "tags": [
       "键盘",
@@ -745,7 +745,7 @@
     "name": "Virtual Drumming",
     "url": "https://www.virtualdrumming.com/drums/online-virtual-games/online-virtual-games-drums.html",
     "description": "键盘变成架子鼓，按键就能打出节奏。适合现场一起试。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/keyboard-drumset.png",
     "category": "声音玩具",
     "tags": [
       "鼓",
@@ -764,7 +764,7 @@
     "name": "Online Sequencer",
     "url": "https://onlinesequencer.net/",
     "description": "在时间线上点音符，马上听到旋律，像简化版作曲玩具。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/online-sequencer.png",
     "category": "声音玩具",
     "tags": [
       "作曲",
@@ -783,7 +783,7 @@
     "name": "BeepBox",
     "url": "https://www.beepbox.co/",
     "description": "点格子做芯片音乐，几分钟能拼出一段小旋律。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/beepbox.png",
     "category": "声音玩具",
     "tags": [
       "芯片",
@@ -802,7 +802,7 @@
     "name": "Incredibox Demo",
     "url": "https://www.incredibox.com/demo/",
     "description": "把角色拖进节奏组合里，马上听到一支小乐队。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/incredibox-demo.png",
     "category": "声音玩具",
     "tags": [
       "人声",
@@ -821,7 +821,7 @@
     "name": "Bomomo",
     "url": "https://bomomo.com/",
     "description": "选择笔刷后乱画，会出现很难预料的线条和图案。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/bomomo.png",
     "category": "视觉玩具",
     "tags": [
       "绘画",
@@ -840,7 +840,7 @@
     "name": "Sketchpad",
     "url": "https://sketch.io/sketchpad/",
     "description": "在线画板，工具够多但打开就能涂。适合自由创作。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/sketchpad.png",
     "category": "视觉玩具",
     "tags": [
       "画板",
@@ -859,7 +859,7 @@
     "name": "Harmony",
     "url": "https://mrdoob.com/projects/harmony/",
     "description": "几种奇怪笔刷会自己生成漂亮线条，随便画也不太丑。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/mr-doob-harmony.png",
     "category": "视觉玩具",
     "tags": [
       "绘画",
@@ -878,7 +878,7 @@
     "name": "Ball Pool",
     "url": "https://mrdoob.com/projects/chromeexperiments/ball_pool/",
     "description": "拖动一堆彩色小球，看它们碰撞散开，像桌面物理玩具。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/mr-doob-ball-pool.png",
     "category": "视觉玩具",
     "tags": [
       "物理",
@@ -893,16 +893,16 @@
     "tested": false
   },
   {
-    "id": "ribbon",
-    "name": "Ribbon",
-    "url": "https://mrdoob.com/projects/chromeexperiments/ribbon/",
-    "description": "鼠标拖出彩带一样的线条，动作越快画面越有生命感。",
-    "image": "/images/placeholders/toy-default.svg",
+    "id": "google-space",
+    "name": "Google Space",
+    "url": "https://mrdoob.com/projects/chromeexperiments/google-space/",
+    "description": "搜索页元素漂到太空里，鼠标一碰就散开，像失重版网页玩具。",
+    "image": "/images/sites/google-space.png",
     "category": "视觉玩具",
     "tags": [
-      "鼠标",
-      "彩带",
-      "动效"
+      "失重",
+      "网页",
+      "恶搞"
     ],
     "contentMode": "light",
     "domesticPriority": false,
@@ -916,7 +916,7 @@
     "name": "Google Gravity",
     "url": "https://mrdoob.com/projects/chromeexperiments/google-gravity/",
     "description": "搜索页突然受重力影响掉下来，像把网页本身变成玩具。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/google-gravity.png",
     "category": "互联网怪站",
     "tags": [
       "重力",
@@ -935,7 +935,7 @@
     "name": "Solitaire",
     "url": "https://solitaired.com/",
     "description": "经典纸牌接龙，规则简单，适合安静地玩几分钟。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/solitaire-card-games.png",
     "category": "轻量小游戏",
     "tags": [
       "纸牌",
@@ -954,7 +954,7 @@
     "name": "Tetris N-Blox",
     "url": "https://www.freetetris.org/game.php",
     "description": "经典俄罗斯方块，打开就能玩，适合作为轻量游戏补充。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/tetris-n-blox.png",
     "category": "轻量小游戏",
     "tags": [
       "方块",
@@ -973,7 +973,7 @@
     "name": "Hextris",
     "url": "https://hextris.io/",
     "description": "六边形版消除小游戏，旋转接住颜色块，节奏很快。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/hextris.png",
     "category": "轻量小游戏",
     "tags": [
       "消除",
@@ -992,7 +992,7 @@
     "name": "Agar.io",
     "url": "https://agar.io/",
     "description": "控制小圆点吃掉更小的圆点，规则一眼能懂但有竞技性。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/agar-io.png",
     "category": "轻量小游戏",
     "tags": [
       "圆点",
@@ -1011,7 +1011,7 @@
     "name": "Slither.io",
     "url": "https://slither.io/",
     "description": "控制小蛇绕来绕去吃光点，像更热闹的贪吃蛇。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/slither-io.png",
     "category": "轻量小游戏",
     "tags": [
       "小蛇",
@@ -1030,7 +1030,7 @@
     "name": "Flappy Bird",
     "url": "https://flappybird.io/",
     "description": "点一下飞一下，失败很快但会想再来一局。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/flappy-bird-html5.png",
     "category": "轻量小游戏",
     "tags": [
       "点击",
@@ -1049,7 +1049,7 @@
     "name": "Wordle",
     "url": "https://www.nytimes.com/games/wordle/index.html",
     "description": "每天猜一个英文单词，规则简单，适合稍大一点的孩子。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/wordle-nytimes.png",
     "category": "规则挑战",
     "tags": [
       "单词",
@@ -1068,7 +1068,7 @@
     "name": "Worldle",
     "url": "https://worldle.teuteuf.fr/",
     "description": "看轮廓猜国家，像地理版猜谜。适合学点东西模式。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/worldle.png",
     "category": "规则挑战",
     "tags": [
       "地理",
@@ -1087,7 +1087,7 @@
     "name": "GeoGuessr Free",
     "url": "https://www.geoguessr.com/free",
     "description": "看街景猜自己在哪里，像把世界地图变成小游戏。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/geoguessr-free.png",
     "category": "探索实验",
     "tags": [
       "地图",
@@ -1106,7 +1106,7 @@
     "name": "Radio Garden",
     "url": "https://radio.garden/",
     "description": "旋转地球听世界各地电台，像在地球上调收音机。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/radio-garden.png",
     "category": "探索实验",
     "tags": [
       "地球",
@@ -1125,7 +1125,7 @@
     "name": "Earth Wind Map",
     "url": "https://earth.nullschool.net/",
     "description": "看全球风流动的可视化地图，像地球正在呼吸。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/earth-nullschool.png",
     "category": "探索实验",
     "tags": [
       "地球",
@@ -1144,7 +1144,7 @@
     "name": "100,000 Stars",
     "url": "https://stars.chromeexperiments.com/",
     "description": "在浏览器里缩放银河，像把星图做成一个可玩的模型。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/stars-chrome-experiment.png",
     "category": "探索实验",
     "tags": [
       "宇宙",
@@ -1163,7 +1163,7 @@
     "name": "Scale of the Universe",
     "url": "https://htwins.net/scale2/",
     "description": "从微小粒子滑到宇宙尺度，视觉化理解大小关系。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/scale-of-universe.png",
     "category": "探索实验",
     "tags": [
       "尺度",
@@ -1182,7 +1182,7 @@
     "name": "Access Mars",
     "url": "https://accessmars.withgoogle.com/",
     "description": "在浏览器里走近火星地形，像迷你太空探险。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/access-mars.png",
     "category": "探索实验",
     "tags": [
       "火星",
@@ -1201,7 +1201,7 @@
     "name": "MetKids Map",
     "url": "https://www.metmuseum.org/art/online-features/metkids/explore/",
     "description": "用地图方式逛艺术品，偏探索，不像普通博物馆页面。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/metkids-map.png",
     "category": "探索实验",
     "tags": [
       "艺术",
@@ -1220,7 +1220,7 @@
     "name": "Teachable Machine",
     "url": "https://teachablemachine.withgoogle.com/",
     "description": "用摄像头或声音训练一个小模型，AI 变得可摸可玩。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/teachable-machine.png",
     "category": "AI 玩具",
     "tags": [
       "AI",
@@ -1239,7 +1239,7 @@
     "name": "Semi-Conductor",
     "url": "https://semiconductor.withgoogle.com/",
     "description": "挥动身体指挥 AI 乐团，像在网页里当一次指挥家。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/semiconductor.png",
     "category": "AI 玩具",
     "tags": [
       "AI",
@@ -1258,7 +1258,7 @@
     "name": "Thing Translator",
     "url": "https://thing-translator.appspot.com/",
     "description": "给东西拍照，它会猜是什么并翻译，像一个小小识物魔法。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/thing-translator.png",
     "category": "AI 玩具",
     "tags": [
       "AI",
@@ -1277,7 +1277,7 @@
     "name": "Quick Draw Dataset",
     "url": "https://quickdraw.withgoogle.com/data",
     "description": "看全世界的人怎么画同一个东西，像翻一本 AI 涂鸦图鉴。",
-    "image": "/images/placeholders/toy-default.svg",
+    "image": "/images/sites/ai-experiments-quickdraw-data.png",
     "category": "AI 玩具",
     "tags": [
       "AI",
