@@ -1,0 +1,14 @@
+node_modules
+dist
+.git
+.nexus-map
+logs
+screenshots
+reports
+coverage
+playwright-report
+test-results
+*.log
+.env
+.env.*
+!.env.example
