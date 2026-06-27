@@ -15,6 +15,13 @@ const ALLOWED_CATEGORIES = new Set([
 ]);
 
 const BANNED_EDU_DRIFT = /课程|课件|教育平台|在线课程|博物馆主页|工具导航|AI工具大全/;
+const BANNED_SITE_IDS = new Set([
+  'agar-io',
+  'geoguessr-free',
+  'semiconductor',
+  'thing-translator',
+]);
+const BANNED_URL_PATTERNS = [/agar\.io/, /geoguessr\.com\/free/, /semiconductor\.withgoogle\.com/, /thing-translator\.appspot\.com/];
 
 describe('sites taste contract', () => {
   it('keeps catalog focused on web toys instead of education portals', () => {
@@ -28,6 +35,21 @@ describe('sites taste contract', () => {
     sites.forEach((site) => {
       expect(site.description.length, site.id).toBeLessThanOrEqual(56);
       expect(site.tags.length, site.id).toBeGreaterThanOrEqual(2);
+    });
+  });
+
+  it('excludes known off-theme, changed, or unsupported sites', () => {
+    sites.forEach((site) => {
+      expect(BANNED_SITE_IDS.has(site.id), site.id).toBe(false);
+      BANNED_URL_PATTERNS.forEach((pattern) => {
+        expect(site.url, site.id).not.toMatch(pattern);
+      });
+    });
+  });
+
+  it('uses captured preview images for all cards', () => {
+    sites.forEach((site) => {
+      expect(site.image, site.id).not.toContain('/images/placeholders/');
     });
   });
 

@@ -988,20 +988,20 @@
     "tested": false
   },
   {
-    "id": "agar-io",
-    "name": "Agar.io",
-    "url": "https://agar.io/",
-    "description": "控制小圆点吃掉更小的圆点，规则一眼能懂但有竞技性。",
-    "image": "/images/sites/agar-io.png",
-    "category": "轻量小游戏",
+    "id": "turtle-toy",
+    "name": "Turtle Toy",
+    "url": "https://turtletoy.net/",
+    "description": "看别人写的小乌龟绘图，也能自己改参数玩出图案。",
+    "image": "/images/sites/turtle-toy.png",
+    "category": "视觉玩具",
     "tags": [
-      "圆点",
-      "吞噬",
-      "反应"
+      "绘图",
+      "生成",
+      "创作"
     ],
-    "contentMode": "light",
-    "domesticPriority": true,
-    "mayNeedGlobalNetwork": false,
+    "contentMode": "useful",
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -1083,11 +1083,11 @@
     "tested": false
   },
   {
-    "id": "geoguessr-free",
-    "name": "GeoGuessr Free",
-    "url": "https://www.geoguessr.com/free",
-    "description": "看街景猜自己在哪里，像把世界地图变成小游戏。",
-    "image": "/images/sites/geoguessr-free.png",
+    "id": "city-guesser",
+    "name": "City Guesser",
+    "url": "https://virtualvacation.us/guess",
+    "description": "看一段城市街景视频，猜它来自哪里，像旅行版观察游戏。",
+    "image": "/images/sites/city-guesser.png",
     "category": "探索实验",
     "tags": [
       "地图",
@@ -1095,8 +1095,8 @@
       "猜谜"
     ],
     "contentMode": "useful",
-    "domesticPriority": true,
-    "mayNeedGlobalNetwork": false,
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -1235,18 +1235,18 @@
     "tested": false
   },
   {
-    "id": "semiconductor",
-    "name": "Semi-Conductor",
-    "url": "https://semiconductor.withgoogle.com/",
-    "description": "挥动身体指挥 AI 乐团，像在网页里当一次指挥家。",
-    "image": "/images/sites/semiconductor.png",
-    "category": "AI 玩具",
+    "id": "shared-piano",
+    "name": "Shared Piano",
+    "url": "https://musiclab.chromeexperiments.com/Shared-Piano/",
+    "description": "打开就能弹在线钢琴，还能把链接发给别人一起合奏。",
+    "image": "/images/sites/shared-piano.png",
+    "category": "声音玩具",
     "tags": [
-      "AI",
+      "钢琴",
       "音乐",
-      "身体"
+      "合奏"
     ],
-    "contentMode": "light",
+    "contentMode": "useful",
     "domesticPriority": false,
     "mayNeedGlobalNetwork": true,
     "childFriendly": true,
@@ -1254,16 +1254,16 @@
     "tested": false
   },
   {
-    "id": "thing-translator",
-    "name": "Thing Translator",
-    "url": "https://thing-translator.appspot.com/",
-    "description": "给东西拍照，它会猜是什么并翻译，像一个小小识物魔法。",
-    "image": "/images/sites/thing-translator.png",
-    "category": "AI 玩具",
+    "id": "kandinsky-music-lab",
+    "name": "Kandinsky",
+    "url": "https://musiclab.chromeexperiments.com/Kandinsky/",
+    "description": "画几条线和形状，它会把画面变成声音，反馈很直观。",
+    "image": "/images/sites/kandinsky-music-lab.png",
+    "category": "声音玩具",
     "tags": [
-      "AI",
-      "识物",
-      "翻译"
+      "绘画",
+      "声音",
+      "实验"
     ],
     "contentMode": "useful",
     "domesticPriority": false,

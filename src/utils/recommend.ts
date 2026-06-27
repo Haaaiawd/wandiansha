@@ -11,8 +11,9 @@ export type FilterState = {
 export type RecommendationBatch = Site[];
 
 function prepareGroup(sites: Site[], contentMode: ContentMode): Site[] {
-  const sorted = sortByContentMode(sites, contentMode);
-  return shuffleSites(sorted);
+  const matching = sites.filter((site) => site.contentMode === contentMode);
+  const rest = sites.filter((site) => site.contentMode !== contentMode);
+  return [...shuffleSites(matching), ...shuffleSites(rest)];
 }
 
 export function recommendSites(

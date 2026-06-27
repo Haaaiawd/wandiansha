@@ -99,6 +99,7 @@ describe('recommendSites', () => {
     const light = site({ id: 'light', contentMode: 'light', mayNeedGlobalNetwork: true });
     const result = recommendSites([useful, light], { contentMode: 'light' });
     expect(result.map((s) => s.id).sort()).toEqual(['light', 'useful']);
+    expect(result[0].contentMode).toBe('light');
   });
 
   it('retains useful content in useful mode', () => {
@@ -106,6 +107,19 @@ describe('recommendSites', () => {
     const light = site({ id: 'light', contentMode: 'light' });
     const result = recommendSites([light, useful], { contentMode: 'useful' });
     expect(result.map((s) => s.id).sort()).toEqual(['light', 'useful']);
+    expect(result[0].contentMode).toBe('useful');
+  });
+
+  it('keeps non-matching content after all matching content', () => {
+    const input = [
+      site({ id: 'light-a', contentMode: 'light' }),
+      site({ id: 'useful-a', contentMode: 'useful' }),
+      site({ id: 'light-b', contentMode: 'light' }),
+      site({ id: 'useful-b', contentMode: 'useful' }),
+    ];
+    const result = recommendSites(input, { contentMode: 'useful' });
+    expect(result.slice(0, 2).every((item) => item.contentMode === 'useful')).toBe(true);
+    expect(result.slice(2).every((item) => item.contentMode === 'light')).toBe(true);
   });
 
   it('returns empty array when nothing is safe', () => {
