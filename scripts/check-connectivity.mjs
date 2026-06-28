@@ -14,6 +14,7 @@ const PROXY_ENV = {
   ALL_PROXY: process.env.ALL_PROXY ?? process.env.all_proxy ?? '',
 };
 const HAS_PROXY = Object.values(PROXY_ENV).some(Boolean);
+const ASSUME_DIRECT_NETWORK = process.env.CONNECTIVITY_ASSUME_DIRECT === '1';
 
 function withTimeout(ms) {
   const controller = new AbortController();
@@ -90,7 +91,7 @@ function classify(record) {
 }
 
 function recommendation(status) {
-  if (HAS_PROXY) {
+  if (HAS_PROXY && !ASSUME_DIRECT_NETWORK) {
     return '当前环境检测到代理，不建议据此改为 false';
   }
 
@@ -130,7 +131,14 @@ async function main() {
   }
 
   await mkdir(REPORTS_DIR, { recursive: true });
-  await writeFile(JSON_REPORT, JSON.stringify({ checkedAt, timeoutMs: TIMEOUT_MS, proxy: PROXY_ENV, hasProxy: HAS_PROXY, results }, null, 2));
+  await writeFile(JSON_REPORT, JSON.stringify({
+    checkedAt,
+    timeoutMs: TIMEOUT_MS,
+    proxy: PROXY_ENV,
+    hasProxy: HAS_PROXY,
+    assumeDirectNetwork: ASSUME_DIRECT_NETWORK,
+    results,
+  }, null, 2));
 
   const rows = results.map((item) => [
     item.id,
@@ -148,7 +156,8 @@ async function main() {
     '',
     `> 生成时间: ${checkedAt}`,
     `> 超时阈值: ${TIMEOUT_MS}ms`,
-    `> 代理环境: ${HAS_PROXY ? '检测到代理，结果不可直接视为国内直连' : '未检测到常见代理环境变量'}`,
+    `> 代理环境: ${HAS_PROXY ? '检测到代理环境变量' : '未检测到常见代理环境变量'}`,
+    `> 直连确认: ${ASSUME_DIRECT_NETWORK ? '用户已确认当前网络为直连测试，忽略代理环境变量残留' : '未确认'}`,
     '',
     '## 判定口径',
     '',
@@ -157,7 +166,7 @@ async function main() {
     '- `REACHABLE_RESTRICTED`: 可连通但返回 4xx，可能有反爬、地区或页面限制。',
     '- `DNS_FAIL` / `TIMEOUT` / `CONNECT_FAIL`: 建议继续标记为可能需要外网。',
     '',
-    '> 注意：这是当前机器当前网络的探针，不代表全国所有国内网络；如果检测到代理，不得据此把 `mayNeedGlobalNetwork` 自动改为 false。最终 `tested` 仍需 agent-browser 打开页面确认。',
+    `> 注意：这是当前机器当前网络的探针，不代表全国所有国内网络；${HAS_PROXY && !ASSUME_DIRECT_NETWORK ? '当前检测到代理环境变量，不得据此把 `mayNeedGlobalNetwork` 自动改为 false。' : '当前已按直连测试口径记录，可作为本机网络下的回填依据。'}最终 \`tested\` 仍需 agent-browser 打开页面确认。`,
     '',
     '| ID | 名称 | Host | 状态 | HTTP | ms | 当前外网标记 | 建议 |',
     '|----|------|------|------|------|----|--------------|------|',

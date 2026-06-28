@@ -88,8 +88,8 @@
       "挑战"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -126,8 +126,8 @@
       "一分钟"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -240,8 +240,8 @@
       "动画"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -259,8 +259,8 @@
       "声音"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -278,8 +278,8 @@
       "放松"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false
@@ -297,8 +297,8 @@
       "发光"
     ],
     "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false
@@ -354,8 +354,8 @@
       "反应"
     ],
     "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false
@@ -411,8 +411,8 @@
       "探索"
     ],
     "contentMode": "useful",
-    "domesticPriority": true,
-    "mayNeedGlobalNetwork": false,
+    "domesticPriority": false,
+    "mayNeedGlobalNetwork": true,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false
@@ -487,8 +487,8 @@
       "世界"
     ],
     "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -506,8 +506,8 @@
       "挑战"
     ],
     "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -601,8 +601,8 @@
       "动效"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -620,8 +620,8 @@
       "恶搞"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -658,8 +658,8 @@
       "怪站"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false
@@ -677,8 +677,8 @@
       "回声"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false
@@ -696,8 +696,8 @@
       "反常识"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -715,8 +715,8 @@
       "视觉"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false
@@ -734,8 +734,8 @@
       "节奏"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false
@@ -791,8 +791,8 @@
       "格子"
     ],
     "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -848,8 +848,8 @@
       "创作"
     ],
     "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false
@@ -905,8 +905,8 @@
       "恶搞"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false
@@ -981,8 +981,8 @@
       "反应"
     ],
     "contentMode": "light",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -1000,8 +1000,8 @@
       "创作"
     ],
     "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -1095,8 +1095,8 @@
       "猜谜"
     ],
     "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false
@@ -1247,8 +1247,8 @@
       "合奏"
     ],
     "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 5,
     "tested": false
@@ -1266,8 +1266,8 @@
       "实验"
     ],
     "contentMode": "useful",
-    "domesticPriority": false,
-    "mayNeedGlobalNetwork": true,
+    "domesticPriority": true,
+    "mayNeedGlobalNetwork": false,
     "childFriendly": true,
     "safeLevel": 4,
     "tested": false

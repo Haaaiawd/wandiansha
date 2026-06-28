@@ -1,157 +1,160 @@
 {
-  "checkedAt": "2026-06-26T13:54:37.152Z",
-  "timeoutMs": 5000,
+  "checkedAt": "2026-06-28T07:02:14.848Z",
+  "timeoutMs": 6000,
   "proxy": {
     "HTTP_PROXY": "http://127.0.0.1:55483",
     "HTTPS_PROXY": "http://127.0.0.1:55483",
     "ALL_PROXY": "http://127.0.0.1:55483"
   },
   "hasProxy": true,
+  "assumeDirectNetwork": true,
   "results": [
     {
       "id": "pointer-pointer",
       "name": "Pointer Pointer",
       "url": "https://pointerpointer.com/",
       "hostname": "pointerpointer.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "104.21.38.89",
-        "family": 4,
-        "elapsedMs": 78
+        "address": "2606:4700:3036::ac43:dcd4",
+        "family": 6,
+        "elapsedMs": 343
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://pointerpointer.com/",
-        "elapsedMs": 671
+        "elapsedMs": 819
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "find-the-invisible-cow",
       "name": "Find the Invisible Cow",
       "url": "https://findtheinvisiblecow.com/",
       "hostname": "findtheinvisiblecow.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "13.35.202.26",
+        "address": "3.168.86.70",
         "family": 4,
-        "elapsedMs": 306
+        "elapsedMs": 58
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://findtheinvisiblecow.com/",
-        "elapsedMs": 186
+        "elapsedMs": 731
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "cat-bounce",
       "name": "Cat Bounce",
       "url": "https://cat-bounce.com/",
       "hostname": "cat-bounce.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
         "address": "208.113.158.104",
         "family": 4,
-        "elapsedMs": 76
+        "elapsedMs": 342
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://cat-bounce.com/",
-        "elapsedMs": 1491
+        "elapsedMs": 1201
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "koalas-to-the-max",
       "name": "Koalas to the Max",
       "url": "https://koalastothemax.com/",
       "hostname": "koalastothemax.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
         "address": "162.241.226.220",
         "family": 4,
-        "elapsedMs": 67
+        "elapsedMs": 65
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://koalastothemax.com/",
-        "elapsedMs": 644
+        "elapsedMs": 824
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "long-doge-challenge",
       "name": "Long Doge Challenge",
       "url": "https://longdogechallenge.com/",
       "hostname": "longdogechallenge.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "13.215.239.219",
+        "address": "52.74.6.109",
         "family": 4,
-        "elapsedMs": 76
+        "elapsedMs": 148
       },
       "http": {
-        "ok": false,
-        "error": "TypeError: fetch failed",
-        "elapsedMs": 68
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://longdogechallenge.com/",
+        "elapsedMs": 288
       },
-      "status": "CONNECT_FAIL",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "paper-toilet",
       "name": "Paper Toilet",
       "url": "https://papertoilet.com/",
       "hostname": "papertoilet.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
         "address": "138.68.199.111",
         "family": 4,
-        "elapsedMs": 1
+        "elapsedMs": 7
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://papertoilet.com/",
-        "elapsedMs": 916
+        "elapsedMs": 1546
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "checkbox-race",
       "name": "Checkbox Race",
       "url": "https://checkboxrace.com/",
       "hostname": "checkboxrace.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "13.215.239.219",
+        "address": "52.74.6.109",
         "family": 4,
-        "elapsedMs": 78
+        "elapsedMs": 160
       },
       "http": {
-        "ok": false,
-        "error": "TypeError: fetch failed",
-        "elapsedMs": 66
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://checkboxrace.com/",
+        "elapsedMs": 298
       },
-      "status": "CONNECT_FAIL",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "quick-draw",
@@ -161,38 +164,38 @@
       "currentMayNeedGlobalNetwork": true,
       "dns": {
         "ok": true,
-        "address": "142.250.73.81",
-        "family": 4,
-        "elapsedMs": 82
+        "address": "2404:6800:4012:2::2011",
+        "family": 6,
+        "elapsedMs": 283
       },
       "http": {
         "ok": false,
         "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5016
+        "elapsedMs": 6004
       },
       "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "建议保持 mayNeedGlobalNetwork=true"
     },
     {
       "id": "auto-draw",
       "name": "AutoDraw",
       "url": "https://www.autodraw.com/",
       "hostname": "www.autodraw.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "74.125.20.121",
-        "family": 4,
-        "elapsedMs": 84
+        "address": "2404:6800:4012:8::2013",
+        "family": 6,
+        "elapsedMs": 63
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://www.autodraw.com/",
-        "elapsedMs": 776
+        "elapsedMs": 910
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "blob-opera",
@@ -202,222 +205,227 @@
       "currentMayNeedGlobalNetwork": true,
       "dns": {
         "ok": true,
-        "address": "173.194.43.139",
-        "family": 4,
-        "elapsedMs": 69
+        "address": "2404:6800:4012:6::200e",
+        "family": 6,
+        "elapsedMs": 34
       },
       "http": {
         "ok": false,
         "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5017
+        "elapsedMs": 6004
       },
       "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "建议保持 mayNeedGlobalNetwork=true"
     },
     {
       "id": "chrome-music-lab",
       "name": "Chrome Music Lab",
       "url": "https://musiclab.chromeexperiments.com/",
       "hostname": "musiclab.chromeexperiments.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "74.125.199.121",
-        "family": 4,
-        "elapsedMs": 620
+        "address": "2404:6800:4012:6::2013",
+        "family": 6,
+        "elapsedMs": 48
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://musiclab.chromeexperiments.com/",
-        "elapsedMs": 951
+        "elapsedMs": 405
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "song-maker",
       "name": "Song Maker",
       "url": "https://musiclab.chromeexperiments.com/Song-Maker/",
       "hostname": "musiclab.chromeexperiments.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "74.125.199.121",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2404:6800:4012:9::2013",
+        "family": 6,
+        "elapsedMs": 19
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://musiclab.chromeexperiments.com/Song-Maker/",
-        "elapsedMs": 277
+        "elapsedMs": 271
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "patatap",
       "name": "Patatap",
       "url": "https://patatap.com/",
       "hostname": "patatap.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "216.239.36.21",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2001:4860:4802:32::15",
+        "family": 6,
+        "elapsedMs": 6
       },
       "http": {
-        "ok": false,
-        "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5000
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://patatap.com/",
+        "elapsedMs": 207
       },
-      "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "typedrummer",
       "name": "Typedrummer",
-      "url": "https://typedrummer.com/",
+      "url": "http://typedrummer.com/",
       "hostname": "typedrummer.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
         "address": "198.199.117.33",
         "family": 4,
-        "elapsedMs": 514
+        "elapsedMs": 20
       },
       "http": {
-        "ok": false,
-        "error": "TypeError: fetch failed",
-        "elapsedMs": 3039
+        "ok": true,
+        "status": 200,
+        "finalUrl": "http://typedrummer.com/",
+        "elapsedMs": 1481
       },
-      "status": "CONNECT_FAIL",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "purrli",
       "name": "Purrli",
       "url": "https://purrli.com/",
       "hostname": "purrli.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "46.30.213.109",
-        "family": 4,
+        "address": "2a02:2350:5:10b:806d:caf4:ca02:cb97",
+        "family": 6,
         "elapsedMs": 1
       },
       "http": {
-        "ok": false,
-        "error": "TypeError: fetch failed",
-        "elapsedMs": 328
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://purrli.com/",
+        "elapsedMs": 1110
       },
-      "status": "CONNECT_FAIL",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "weave-silk",
       "name": "Weave Silk",
-      "url": "https://weavesilk.com/",
+      "url": "http://weavesilk.com/",
       "hostname": "weavesilk.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "16.182.104.37",
+        "address": "52.217.163.149",
         "family": 4,
-        "elapsedMs": 74
+        "elapsedMs": 20
       },
       "http": {
-        "ok": false,
-        "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5003
+        "ok": true,
+        "status": 200,
+        "finalUrl": "http://weavesilk.com/",
+        "elapsedMs": 2419
       },
-      "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "neon-flames",
       "name": "Neon Flames",
       "url": "https://29a.ch/sandbox/2011/neonflames/",
       "hostname": "29a.ch",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "172.67.152.180",
-        "family": 4,
-        "elapsedMs": 86
+        "address": "2606:4700:3034::6815:50b1",
+        "family": 6,
+        "elapsedMs": 246
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://29a.ch/sandbox/2011/neonflames/",
-        "elapsedMs": 1544
+        "elapsedMs": 1196
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "this-is-sand",
       "name": "This Is Sand",
       "url": "https://thisissand.com/",
       "hostname": "thisissand.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "198.58.116.172",
-        "family": 4,
-        "elapsedMs": 0
+        "address": "2600:3c00:e000:91a::1",
+        "family": 6,
+        "elapsedMs": 2
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://thisissand.com/",
-        "elapsedMs": 812
+        "elapsedMs": 1048
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "sandspiel",
       "name": "Sandspiel",
       "url": "https://sandspiel.club/",
       "hostname": "sandspiel.club",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
         "address": "151.101.65.195",
         "family": 4,
-        "elapsedMs": 79
+        "elapsedMs": 872
       },
       "http": {
-        "ok": false,
-        "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5010
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://sandspiel.club/",
+        "elapsedMs": 294
       },
-      "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "fluid-simulation",
       "name": "Fluid Simulation",
       "url": "https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
       "hostname": "paveldogreat.github.io",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "185.199.109.153",
-        "family": 4,
-        "elapsedMs": 80
+        "address": "2606:50c0:8003::153",
+        "family": 6,
+        "elapsedMs": 2
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
-        "elapsedMs": 471
+        "elapsedMs": 251
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "deep-sea",
@@ -427,18 +435,18 @@
       "currentMayNeedGlobalNetwork": true,
       "dns": {
         "ok": true,
-        "address": "172.66.162.110",
-        "family": 4,
-        "elapsedMs": 77
+        "address": "2606:4700:10::6814:20de",
+        "family": 6,
+        "elapsedMs": 24
       },
       "http": {
         "ok": true,
         "status": 403,
         "finalUrl": "https://neal.fun/deep-sea/",
-        "elapsedMs": 695
+        "elapsedMs": 1563
       },
       "status": "REACHABLE_RESTRICTED",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "保持当前标记，需 agent-browser 实测"
     },
     {
       "id": "size-of-space",
@@ -448,18 +456,18 @@
       "currentMayNeedGlobalNetwork": true,
       "dns": {
         "ok": true,
-        "address": "172.66.162.110",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2606:4700:10::ac42:a26e",
+        "family": 6,
+        "elapsedMs": 24
       },
       "http": {
         "ok": true,
-        "status": 200,
+        "status": 403,
         "finalUrl": "https://neal.fun/size-of-space/",
-        "elapsedMs": 608
+        "elapsedMs": 717
       },
-      "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "REACHABLE_RESTRICTED",
+      "recommendation": "保持当前标记，需 agent-browser 实测"
     },
     {
       "id": "spend-bill-gates-money",
@@ -469,18 +477,18 @@
       "currentMayNeedGlobalNetwork": true,
       "dns": {
         "ok": true,
-        "address": "172.66.162.110",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2606:4700:10::6814:20de",
+        "family": 6,
+        "elapsedMs": 6
       },
       "http": {
         "ok": true,
         "status": 403,
         "finalUrl": "https://neal.fun/spend/",
-        "elapsedMs": 230
+        "elapsedMs": 745
       },
       "status": "REACHABLE_RESTRICTED",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "保持当前标记，需 agent-browser 实测"
     },
     {
       "id": "draw-logos-from-memory",
@@ -490,18 +498,18 @@
       "currentMayNeedGlobalNetwork": true,
       "dns": {
         "ok": true,
-        "address": "172.66.162.110",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2606:4700:10::6814:20de",
+        "family": 6,
+        "elapsedMs": 2
       },
       "http": {
         "ok": true,
         "status": 403,
         "finalUrl": "https://neal.fun/logos-from-memory/",
-        "elapsedMs": 596
+        "elapsedMs": 926
       },
       "status": "REACHABLE_RESTRICTED",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "保持当前标记，需 agent-browser 实测"
     },
     {
       "id": "design-next-iphone",
@@ -511,326 +519,333 @@
       "currentMayNeedGlobalNetwork": true,
       "dns": {
         "ok": true,
-        "address": "172.66.162.110",
-        "family": 4,
-        "elapsedMs": 0
+        "address": "2606:4700:10::6814:20de",
+        "family": 6,
+        "elapsedMs": 24
       },
       "http": {
         "ok": true,
         "status": 403,
         "finalUrl": "https://neal.fun/design-the-next-iphone/",
-        "elapsedMs": 616
+        "elapsedMs": 740
       },
       "status": "REACHABLE_RESTRICTED",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "保持当前标记，需 agent-browser 实测"
     },
     {
       "id": "wonders-of-street-view",
       "name": "Wonders of Street View",
       "url": "https://neal.fun/wonders-of-street-view/",
       "hostname": "neal.fun",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "172.66.162.110",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2606:4700:10::ac42:a26e",
+        "family": 6,
+        "elapsedMs": 26
       },
       "http": {
         "ok": true,
-        "status": 403,
+        "status": 200,
         "finalUrl": "https://neal.fun/wonders-of-street-view/",
-        "elapsedMs": 586
+        "elapsedMs": 1582
       },
-      "status": "REACHABLE_RESTRICTED",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "password-game",
       "name": "The Password Game",
       "url": "https://neal.fun/password-game/",
       "hostname": "neal.fun",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "172.66.162.110",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2606:4700:10::ac42:a26e",
+        "family": 6,
+        "elapsedMs": 21
       },
       "http": {
         "ok": true,
-        "status": 403,
+        "status": 200,
         "finalUrl": "https://neal.fun/password-game/",
-        "elapsedMs": 650
+        "elapsedMs": 505
       },
-      "status": "REACHABLE_RESTRICTED",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "little-alchemy-2",
       "name": "Little Alchemy 2",
       "url": "https://littlealchemy2.com/",
       "hostname": "littlealchemy2.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "104.26.12.171",
-        "family": 4,
-        "elapsedMs": 83
+        "address": "2606:4700:20::681a:dab",
+        "family": 6,
+        "elapsedMs": 217
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://littlealchemy2.com/",
-        "elapsedMs": 482
+        "elapsedMs": 844
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "play-2048",
       "name": "2048",
       "url": "https://play2048.co/",
       "hostname": "play2048.co",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "172.67.144.178",
-        "family": 4,
-        "elapsedMs": 81
+        "address": "2606:4700:3036::6815:4f6a",
+        "family": 6,
+        "elapsedMs": 26
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://play2048.co/",
-        "elapsedMs": 695
+        "elapsedMs": 716
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "human-benchmark-reaction",
       "name": "Reaction Time Test",
       "url": "https://humanbenchmark.com/tests/reactiontime",
       "hostname": "humanbenchmark.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
         "address": "52.74.6.109",
         "family": 4,
-        "elapsedMs": 74
+        "elapsedMs": 26
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://humanbenchmark.com/tests/reactiontime",
-        "elapsedMs": 202
+        "elapsedMs": 280
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "the-zen-zone",
       "name": "The Zen Zone",
       "url": "https://thezen.zone/",
       "hostname": "thezen.zone",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "52.74.6.109",
+        "address": "13.215.239.219",
         "family": 4,
-        "elapsedMs": 75
+        "elapsedMs": 30
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://thezen.zone/",
-        "elapsedMs": 188
+        "elapsedMs": 502
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "staggering-beauty",
       "name": "Staggering Beauty",
-      "url": "https://staggeringbeauty.com/",
-      "hostname": "staggeringbeauty.com",
-      "currentMayNeedGlobalNetwork": true,
+      "url": "http://www.staggeringbeauty.com/",
+      "hostname": "www.staggeringbeauty.com",
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
         "address": "69.163.183.130",
         "family": 4,
-        "elapsedMs": 70
+        "elapsedMs": 18
       },
       "http": {
-        "ok": false,
-        "error": "TypeError: fetch failed",
+        "ok": true,
+        "status": 200,
+        "finalUrl": "http://www.staggeringbeauty.com/",
         "elapsedMs": 476
       },
-      "status": "CONNECT_FAIL",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "eelslap",
       "name": "Eel Slap",
-      "url": "https://eelslap.com/",
+      "url": "http://eelslap.com/",
       "hostname": "eelslap.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
         "address": "162.0.235.241",
         "family": 4,
-        "elapsedMs": 4
+        "elapsedMs": 6
       },
       "http": {
-        "ok": false,
-        "error": "TypeError: fetch failed",
-        "elapsedMs": 511
+        "ok": true,
+        "status": 200,
+        "finalUrl": "http://eelslap.com/",
+        "elapsedMs": 468
       },
-      "status": "CONNECT_FAIL",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "omfgdogs",
       "name": "OMFGDOGS",
       "url": "https://www.omfgdogs.com/",
       "hostname": "www.omfgdogs.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "172.67.186.175",
-        "family": 4,
-        "elapsedMs": 307
+        "address": "2606:4700:3034::ac43:baaf",
+        "family": 6,
+        "elapsedMs": 21
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://www.omfgdogs.com/",
-        "elapsedMs": 597
+        "elapsedMs": 629
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "heeeeeeeey",
       "name": "Heeeeeeeey",
       "url": "https://heeeeeeeey.com/",
       "hostname": "heeeeeeeey.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "151.101.1.195",
+        "address": "151.101.65.195",
         "family": 4,
-        "elapsedMs": 67
+        "elapsedMs": 50
       },
       "http": {
-        "ok": false,
-        "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5009
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://heeeeeeeey.com/",
+        "elapsedMs": 278
       },
-      "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "hooooooooo",
       "name": "Hooooooo",
       "url": "https://hooooooooo.com/",
       "hostname": "hooooooooo.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "151.101.65.195",
+        "address": "151.101.1.195",
         "family": 4,
-        "elapsedMs": 524
+        "elapsedMs": 62
       },
       "http": {
-        "ok": false,
-        "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5013
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://hooooooooo.com/",
+        "elapsedMs": 281
       },
-      "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "cant-not-tweet-this",
       "name": "Can't Not Tweet This",
       "url": "https://cant-not-tweet-this.com/",
       "hostname": "cant-not-tweet-this.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
         "address": "13.215.239.219",
         "family": 4,
-        "elapsedMs": 256
+        "elapsedMs": 151
       },
       "http": {
-        "ok": false,
-        "error": "TypeError: fetch failed",
-        "elapsedMs": 64
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://cant-not-tweet-this.com/",
+        "elapsedMs": 285
       },
-      "status": "CONNECT_FAIL",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "rrrgggbbb",
       "name": "rrrgggbbb",
       "url": "https://rrrgggbbb.com/",
       "hostname": "rrrgggbbb.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "141.138.169.235",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2a03:3c00:a002:235::1000",
+        "family": 6,
+        "elapsedMs": 310
       },
       "http": {
-        "ok": false,
-        "error": "TypeError: fetch failed",
-        "elapsedMs": 275
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://rrrgggbbb.com/",
+        "elapsedMs": 716
       },
-      "status": "CONNECT_FAIL",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "binary-piano",
       "name": "Binary Piano",
       "url": "https://binarypiano.com/",
       "hostname": "binarypiano.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "13.215.239.219",
+        "address": "52.74.6.109",
         "family": 4,
-        "elapsedMs": 451
+        "elapsedMs": 48
       },
       "http": {
-        "ok": false,
-        "error": "TypeError: fetch failed",
-        "elapsedMs": 70
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://binarypiano.com/",
+        "elapsedMs": 286
       },
-      "status": "CONNECT_FAIL",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "keyboard-drumset",
       "name": "Virtual Drumming",
       "url": "https://www.virtualdrumming.com/drums/online-virtual-games/online-virtual-games-drums.html",
       "hostname": "www.virtualdrumming.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "104.21.80.62",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2606:4700:3031::6815:503e",
+        "family": 6,
+        "elapsedMs": 274
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://www.virtualdrumming.com/drums/online-virtual-games/online-virtual-games-drums.html",
-        "elapsedMs": 710
+        "elapsedMs": 1093
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "online-sequencer",
@@ -840,309 +855,312 @@
       "currentMayNeedGlobalNetwork": true,
       "dns": {
         "ok": true,
-        "address": "104.21.61.89",
-        "family": 4,
-        "elapsedMs": 73
+        "address": "2606:4700:3033::ac43:cffb",
+        "family": 6,
+        "elapsedMs": 326
       },
       "http": {
         "ok": true,
         "status": 403,
         "finalUrl": "https://onlinesequencer.net/",
-        "elapsedMs": 661
+        "elapsedMs": 1935
       },
       "status": "REACHABLE_RESTRICTED",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "保持当前标记，需 agent-browser 实测"
     },
     {
       "id": "beepbox",
       "name": "BeepBox",
       "url": "https://www.beepbox.co/",
       "hostname": "www.beepbox.co",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "173.194.43.121",
-        "family": 4,
-        "elapsedMs": 75
+        "address": "2404:6800:4012::2013",
+        "family": 6,
+        "elapsedMs": 31
       },
       "http": {
-        "ok": false,
-        "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5004
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://www.beepbox.co/",
+        "elapsedMs": 240
       },
-      "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "incredibox-demo",
       "name": "Incredibox Demo",
       "url": "https://www.incredibox.com/demo/",
       "hostname": "www.incredibox.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "213.225.239.225",
-        "family": 4,
-        "elapsedMs": 85
+        "address": "2a04:f600:4454:48:8000:2132:2523:9225",
+        "family": 6,
+        "elapsedMs": 21
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://www.incredibox.com/demo/",
-        "elapsedMs": 854
+        "elapsedMs": 1020
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "bomomo",
       "name": "Bomomo",
       "url": "https://bomomo.com/",
       "hostname": "bomomo.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
         "address": "217.160.0.207",
         "family": 4,
-        "elapsedMs": 1
+        "elapsedMs": 252
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://bomomo.com/",
-        "elapsedMs": 739
+        "elapsedMs": 870
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "sketchpad",
       "name": "Sketchpad",
       "url": "https://sketch.io/sketchpad/",
       "hostname": "sketch.io",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "104.26.3.84",
-        "family": 4,
-        "elapsedMs": 85
+        "address": "2606:4700:20::681a:354",
+        "family": 6,
+        "elapsedMs": 52
       },
       "http": {
-        "ok": false,
-        "error": "TypeError: fetch failed",
-        "elapsedMs": 155
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://sketch.io/sketchpad/",
+        "elapsedMs": 734
       },
-      "status": "CONNECT_FAIL",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "mr-doob-harmony",
       "name": "Harmony",
       "url": "https://mrdoob.com/projects/harmony/",
       "hostname": "mrdoob.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "185.199.109.153",
-        "family": 4,
+        "address": "2606:50c0:8003::153",
+        "family": 6,
         "elapsedMs": 1
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://mrdoob.com/projects/harmony/",
-        "elapsedMs": 622
+        "elapsedMs": 488
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "mr-doob-ball-pool",
       "name": "Ball Pool",
       "url": "https://mrdoob.com/projects/chromeexperiments/ball_pool/",
       "hostname": "mrdoob.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "185.199.109.153",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2606:50c0:8003::153",
+        "family": 6,
+        "elapsedMs": 2
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://mrdoob.com/projects/chromeexperiments/ball_pool/",
-        "elapsedMs": 155
+        "elapsedMs": 81
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
-      "id": "ribbon",
-      "name": "Ribbon",
-      "url": "https://mrdoob.com/projects/chromeexperiments/ribbon/",
+      "id": "google-space",
+      "name": "Google Space",
+      "url": "https://mrdoob.com/projects/chromeexperiments/google-space/",
       "hostname": "mrdoob.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "185.199.109.153",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2606:50c0:8003::153",
+        "family": 6,
+        "elapsedMs": 3
       },
       "http": {
         "ok": true,
-        "status": 404,
-        "finalUrl": "https://mrdoob.com/projects/chromeexperiments/ribbon/",
-        "elapsedMs": 162
+        "status": 200,
+        "finalUrl": "https://mrdoob.com/projects/chromeexperiments/google-space/",
+        "elapsedMs": 317
       },
-      "status": "REACHABLE_RESTRICTED",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "google-gravity",
       "name": "Google Gravity",
       "url": "https://mrdoob.com/projects/chromeexperiments/google-gravity/",
       "hostname": "mrdoob.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "185.199.109.153",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2606:50c0:8003::153",
+        "family": 6,
+        "elapsedMs": 2
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://mrdoob.com/projects/chromeexperiments/google-gravity/",
-        "elapsedMs": 166
+        "elapsedMs": 445
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "solitaire-card-games",
       "name": "Solitaire",
       "url": "https://solitaired.com/",
       "hostname": "solitaired.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "13.35.202.39",
-        "family": 4,
-        "elapsedMs": 78
+        "address": "2600:9000:2014:ce00:1e:a035:57c0:93a1",
+        "family": 6,
+        "elapsedMs": 99
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://solitaired.com/",
-        "elapsedMs": 428
+        "elapsedMs": 571
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "tetris-n-blox",
       "name": "Tetris N-Blox",
       "url": "https://www.freetetris.org/game.php",
       "hostname": "www.freetetris.org",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "172.67.178.197",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2606:4700:3033::ac43:b2c5",
+        "family": 6,
+        "elapsedMs": 239
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://www.freetetris.org/game.php",
-        "elapsedMs": 864
+        "elapsedMs": 830
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "hextris",
       "name": "Hextris",
       "url": "https://hextris.io/",
       "hostname": "hextris.io",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
         "address": "185.199.110.153",
         "family": 4,
-        "elapsedMs": 82
-      },
-      "http": {
-        "ok": false,
-        "error": "TypeError: fetch failed",
-        "elapsedMs": 153
-      },
-      "status": "CONNECT_FAIL",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
-    },
-    {
-      "id": "agar-io",
-      "name": "Agar.io",
-      "url": "https://agar.io/",
-      "hostname": "agar.io",
-      "currentMayNeedGlobalNetwork": true,
-      "dns": {
-        "ok": true,
-        "address": "3.169.252.80",
-        "family": 4,
-        "elapsedMs": 370
+        "elapsedMs": 6
       },
       "http": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://agar.io/",
-        "elapsedMs": 858
+        "finalUrl": "https://hextris.io/",
+        "elapsedMs": 294
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
+    },
+    {
+      "id": "turtle-toy",
+      "name": "Turtle Toy",
+      "url": "https://turtletoy.net/",
+      "hostname": "turtletoy.net",
+      "currentMayNeedGlobalNetwork": false,
+      "dns": {
+        "ok": true,
+        "address": "2a01:7c8:fff7:218:5054:ff:fe95:8b5c",
+        "family": 6,
+        "elapsedMs": 329
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://turtletoy.net/",
+        "elapsedMs": 783
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "slither-io",
       "name": "Slither.io",
       "url": "https://slither.io/",
       "hostname": "slither.io",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "172.66.156.205",
-        "family": 4,
-        "elapsedMs": 77
+        "address": "2606:4700:10::ac42:9ccd",
+        "family": 6,
+        "elapsedMs": 16
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "http://slither.io/?a",
-        "elapsedMs": 1552
+        "elapsedMs": 4429
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "flappy-bird-html5",
       "name": "Flappy Bird",
       "url": "https://flappybird.io/",
       "hostname": "flappybird.io",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
         "address": "64.176.199.138",
         "family": 4,
-        "elapsedMs": 70
+        "elapsedMs": 18
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://flappybird.io/",
-        "elapsedMs": 747
+        "elapsedMs": 2324
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "wordle-nytimes",
@@ -1152,59 +1170,59 @@
       "currentMayNeedGlobalNetwork": true,
       "dns": {
         "ok": true,
-        "address": "185.45.7.185",
-        "family": 4,
-        "elapsedMs": 81
+        "address": "2a03:2880:f10d:183:face:b00c:0:25de",
+        "family": 6,
+        "elapsedMs": 22
       },
       "http": {
         "ok": false,
         "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5004
+        "elapsedMs": 6003
       },
       "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "建议保持 mayNeedGlobalNetwork=true"
     },
     {
       "id": "worldle",
       "name": "Worldle",
       "url": "https://worldle.teuteuf.fr/",
       "hostname": "worldle.teuteuf.fr",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "104.21.44.82",
-        "family": 4,
-        "elapsedMs": 0
+        "address": "2606:4700:3036::6815:2c52",
+        "family": 6,
+        "elapsedMs": 28
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://worldle.teuteuf.fr/",
-        "elapsedMs": 702
+        "elapsedMs": 1745
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
-      "id": "geoguessr-free",
-      "name": "GeoGuessr Free",
-      "url": "https://www.geoguessr.com/free",
-      "hostname": "www.geoguessr.com",
-      "currentMayNeedGlobalNetwork": true,
+      "id": "city-guesser",
+      "name": "City Guesser",
+      "url": "https://virtualvacation.us/guess",
+      "hostname": "virtualvacation.us",
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "104.18.1.96",
+        "address": "185.199.110.153",
         "family": 4,
-        "elapsedMs": 73
+        "elapsedMs": 6
       },
       "http": {
         "ok": true,
         "status": 200,
-        "finalUrl": "https://www.geoguessr.com/free",
-        "elapsedMs": 680
+        "finalUrl": "https://virtualvacation.us/guess",
+        "elapsedMs": 294
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "radio-garden",
@@ -1214,80 +1232,80 @@
       "currentMayNeedGlobalNetwork": true,
       "dns": {
         "ok": true,
-        "address": "162.125.32.12",
-        "family": 4,
-        "elapsedMs": 86
+        "address": "2a03:2880:f12c:183:face:b00c:0:25de",
+        "family": 6,
+        "elapsedMs": 56
       },
       "http": {
         "ok": false,
         "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5009
+        "elapsedMs": 6005
       },
       "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "建议保持 mayNeedGlobalNetwork=true"
     },
     {
       "id": "earth-nullschool",
       "name": "Earth Wind Map",
       "url": "https://earth.nullschool.net/",
       "hostname": "earth.nullschool.net",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "104.26.11.231",
-        "family": 4,
-        "elapsedMs": 87
+        "address": "2606:4700:20::681a:be7",
+        "family": 6,
+        "elapsedMs": 33
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://earth.nullschool.net/",
-        "elapsedMs": 469
+        "elapsedMs": 1682
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "stars-chrome-experiment",
       "name": "100,000 Stars",
       "url": "https://stars.chromeexperiments.com/",
       "hostname": "stars.chromeexperiments.com",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "74.125.199.121",
-        "family": 4,
-        "elapsedMs": 302
+        "address": "2404:6800:4012:9::2013",
+        "family": 6,
+        "elapsedMs": 84
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://stars.chromeexperiments.com/",
-        "elapsedMs": 691
+        "elapsedMs": 414
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "scale-of-universe",
       "name": "Scale of the Universe",
       "url": "https://htwins.net/scale2/",
       "hostname": "htwins.net",
-      "currentMayNeedGlobalNetwork": true,
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
         "address": "50.87.249.219",
         "family": 4,
-        "elapsedMs": 78
+        "elapsedMs": 66
       },
       "http": {
         "ok": true,
         "status": 200,
         "finalUrl": "https://htwins.net/scale2/",
-        "elapsedMs": 708
+        "elapsedMs": 911
       },
       "status": "DOMESTIC_LIKELY_OK",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "access-mars",
@@ -1297,17 +1315,17 @@
       "currentMayNeedGlobalNetwork": true,
       "dns": {
         "ok": true,
-        "address": "142.251.33.209",
-        "family": 4,
-        "elapsedMs": 1
+        "address": "2404:6800:4012:9::2011",
+        "family": 6,
+        "elapsedMs": 85
       },
       "http": {
         "ok": false,
         "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5007
+        "elapsedMs": 6013
       },
       "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "建议保持 mayNeedGlobalNetwork=true"
     },
     {
       "id": "metkids-map",
@@ -1319,16 +1337,16 @@
         "ok": true,
         "address": "76.76.21.21",
         "family": 4,
-        "elapsedMs": 86
+        "elapsedMs": 18
       },
       "http": {
         "ok": true,
         "status": 429,
         "finalUrl": "https://www.metmuseum.org/art/online-features/metkids/explore/",
-        "elapsedMs": 197
+        "elapsedMs": 285
       },
       "status": "REACHABLE_RESTRICTED",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "保持当前标记，需 agent-browser 实测"
     },
     {
       "id": "teachable-machine",
@@ -1338,57 +1356,59 @@
       "currentMayNeedGlobalNetwork": true,
       "dns": {
         "ok": true,
-        "address": "142.250.73.145",
-        "family": 4,
-        "elapsedMs": 0
+        "address": "2404:6800:4012:2::2011",
+        "family": 6,
+        "elapsedMs": 71
       },
       "http": {
         "ok": false,
         "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5001
+        "elapsedMs": 6003
       },
       "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "建议保持 mayNeedGlobalNetwork=true"
     },
     {
-      "id": "semiconductor",
-      "name": "Semi-Conductor",
-      "url": "https://semiconductor.withgoogle.com/",
-      "hostname": "semiconductor.withgoogle.com",
-      "currentMayNeedGlobalNetwork": true,
+      "id": "shared-piano",
+      "name": "Shared Piano",
+      "url": "https://musiclab.chromeexperiments.com/Shared-Piano/",
+      "hostname": "musiclab.chromeexperiments.com",
+      "currentMayNeedGlobalNetwork": false,
       "dns": {
         "ok": true,
-        "address": "142.250.73.81",
-        "family": 4,
+        "address": "2404:6800:4012:9::2013",
+        "family": 6,
+        "elapsedMs": 10
+      },
+      "http": {
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://musiclab.chromeexperiments.com/Shared-Piano/",
+        "elapsedMs": 440
+      },
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
+    },
+    {
+      "id": "kandinsky-music-lab",
+      "name": "Kandinsky",
+      "url": "https://musiclab.chromeexperiments.com/Kandinsky/",
+      "hostname": "musiclab.chromeexperiments.com",
+      "currentMayNeedGlobalNetwork": false,
+      "dns": {
+        "ok": true,
+        "address": "2404:6800:4012:9::2013",
+        "family": 6,
         "elapsedMs": 1
       },
       "http": {
-        "ok": false,
-        "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5009
-      },
-      "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
-    },
-    {
-      "id": "thing-translator",
-      "name": "Thing Translator",
-      "url": "https://thing-translator.appspot.com/",
-      "hostname": "thing-translator.appspot.com",
-      "currentMayNeedGlobalNetwork": true,
-      "dns": {
         "ok": true,
-        "address": "31.13.94.41",
-        "family": 4,
-        "elapsedMs": 98
+        "status": 202,
+        "finalUrl": "https://musiclab.chromeexperiments.com/Kandinsky/",
+        "elapsedMs": 266
       },
-      "http": {
-        "ok": false,
-        "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5014
-      },
-      "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "status": "DOMESTIC_LIKELY_OK",
+      "recommendation": "mayNeedGlobalNetwork 可人工考虑设为 false"
     },
     {
       "id": "ai-experiments-quickdraw-data",
@@ -1398,17 +1418,17 @@
       "currentMayNeedGlobalNetwork": true,
       "dns": {
         "ok": true,
-        "address": "142.250.73.81",
-        "family": 4,
-        "elapsedMs": 84
+        "address": "2404:6800:4012:2::2011",
+        "family": 6,
+        "elapsedMs": 1
       },
       "http": {
         "ok": false,
         "error": "AbortError: This operation was aborted",
-        "elapsedMs": 5007
+        "elapsedMs": 6007
       },
       "status": "TIMEOUT",
-      "recommendation": "当前环境检测到代理，不建议据此改为 false"
+      "recommendation": "建议保持 mayNeedGlobalNetwork=true"
     }
   ]
 }
